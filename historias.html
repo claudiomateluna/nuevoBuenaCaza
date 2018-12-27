@@ -1,0 +1,63 @@
+---
+layout: paginas
+titulo: Historias
+priority: 0.9
+changefreq: weekly
+---
+<div class="max-width-3 mx-auto">
+	{% assign historias = site.historias | sort: "orden" | reverse %}
+	{% for historia in historias limit:1 %}
+		<div class="p1 flex justify-center items-center">
+			<div class="ListaArtImgMain">
+				<amp-img src="{{ site.baseurl }}/{{ historia.img }}" alt="{{ historia.title }}" width="320" height="300" layout="responsive" class="circle"></amp-img>
+				<div class="ListaArtTitMainB z2 lg-hide md-hide">
+					<a href="{{ site.baseurl }}{{ historia.url }}">{{ historia.titulo }}</a>
+				</div>
+				<div class="ListaArtPMainB overflow-hidden lg-hide md-hide">
+					<p>{{ historia.resumen | strip_html | truncatewords: 38 }}</p>
+				</div>
+				<div class="ListaMasB lg-hide md-hide">
+					<a href="{{ site.baseurl }}{{ historia.url }}">Quiero más información</a>
+				</div>
+			</div>
+			<div class="z2 xs-hide sm-hide">
+				<div class="ListaArtTitMain">
+					<a href="{{ site.baseurl }}{{ historia.url }}">{{ historia.titulo }}</a>
+				</div>
+				<div class="ListaArtPMain overflow-hidden p1">
+					<p>{{ historia.resumen | strip_html | truncatewords: 38 }}</p>
+				</div>
+				<div class="ListaMas">
+					<a href="{{ site.baseurl }}{{ historia.url }}">Quiero más información</a>
+				</div>
+			</div>
+		</div>
+	{% endfor %}
+</div>
+<div class="clearfix">
+	{% assign historias = site.historias | sort: "orden" | reverse %}
+	{% for historia in historias offset: 1 %}
+	<div class="col col-12 sm-col-12 md-col-6 lg-col-6">
+		<div class="list-reset ml1">
+			<div class="p1 flex justify-start items-center">
+				<div class="ListaArtImg">
+					<amp-img src="{{ site.baseurl }}/{{ historia.img }}" alt="{{ historia.title }}" width="320" height="300" layout="responsive" class="circle"></amp-img>
+				</div>
+				<div class="z2">
+					<div class="ListaArtTit">
+						<h5>
+							<a href="{{ site.baseurl }}{{ historia.url }}">{{ historia.titulo }}</a>
+						</h5>
+					</div>
+					<div class="ListaArtP overflow-hidden p1">
+						<p>{{ historia.resumen | strip_html | truncatewords: 38 }}</p>
+					</div>
+					<div class="ListaMas">
+						<a href="{{ site.baseurl }}{{ historia.url }}">Quiero más información</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	{% endfor %}
+</div>

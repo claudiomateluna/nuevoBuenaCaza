@@ -1,0 +1,138 @@
+{
+	"@context": "http://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "mainEntityOfPage": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}",
+      "headline": "{% if page.titulo %}{{ page.titulo | escape }}{% else %}{{ site.title | escape }}{% endif %}",
+      "name":"{% if page.titulo %}{{ page.titulo | escape }}{% else %}{{ site.title | escape }}{% endif %}",
+      "datePublished": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+      "dateModified": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+      "description": "{% if page.resumen %}{{ page.resumen | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}",
+      "articleSection": "{{ page.categoria.first }}",
+      "wordCount": "{{ page.content | strip_html | strip_newlines | number_of_words }}",
+      "author": {
+        "@type": "EducationalOrganization",
+        "name": "{{ site.name }}",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Pasaje Las Aspas 11280",
+          "addressLocality": "La Florida",
+          "addressRegion": "Santiago",
+          "addressCountry": "Chile",
+          "postalCode": "8301372"
+        },
+        "email": "{{ site.email }}",
+        "foundingDate": "2013-09-05",
+        "legalName": "BuenaCazaScout",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{ site.baseurl }}{{ site.logo }}",
+          "width": "60",
+          "height": "60"
+        }
+      },
+      "inLanguage": {
+        "@type": "Language",
+        "name": "Spanish",
+        "alternateName": "es"
+      },
+      "isAccessibleForFree": "True",
+      "isFamilyFriendly": "True",
+      "keywords": "{% if page.categoria %}{{page.categoria | join: ', '}}{% else %}{{site.keywords | join: ', '}}{% endif %}",
+      "image": {
+        "@type": "ImageObject",
+        "url": "{% if page.img %}https://www.buenacazascout.com/{{page.img}}{% else %}https://www.buenacazascout.com/{{ site.logo }}{% endif %}",
+        "height": "300",
+        "width": "320"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "{{ site.name }}",
+        "url": "https://www.buenacazascout.com/",
+        "image": {
+          "@type": "ImageObject",
+          "url": "{{ site.baseurl }}{{ site.logo }}",
+          "width": "60",
+          "height": "60"
+        },
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{ site.baseurl }}{{ site.logo }}",
+          "width": "60",
+          "height": "60"
+        }
+      },
+      {% if page.ref_url %}"sameAs": "{% if page.ref_url %}{{page.ref_url}}{% else %}{{site.baseurl}}{% endif %}",{% endif %}
+      "articleBody": "{{ page.content | strip_html | strip_newlines }}"
+    },
+    {
+      "@type": "Person",
+      "mainEntityOfPage": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}",
+      "name":"{% if page.titulo %}{{ page.titulo | escape }}{% else %}{{ site.title | escape }}{% endif %}",
+      "datePublished": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+      "dateModified": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+      "description": "{% if page.resumen %}{{ page.resumen | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}",
+      "birthDate": "{{ page.nacimiento }}",
+      "birthPlace": "{{ page.lugar }}",
+      "nationality": "{{ page.pais }}",
+      "deathDate": "{{ page.defuncion }}",
+      "author": {
+        "@type": "EducationalOrganization",
+        "name": "{{ site.name }}",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Pasaje Las Aspas 11280",
+          "addressLocality": "La Florida",
+          "addressRegion": "Santiago",
+          "addressCountry": "Chile",
+          "postalCode": "8301372"
+        },
+        "email": "{{ site.email }}",
+        "foundingDate": "2013-09-05",
+        "legalName": "BuenaCazaScout",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{ site.baseurl }}{{ site.logo }}",
+          "width": "60",
+          "height": "60"
+        }
+      },
+      "inLanguage": {
+        "@type": "Language",
+        "name": "Spanish",
+        "alternateName": "es"
+      },
+      "isAccessibleForFree": "True",
+      "isFamilyFriendly": "True",
+      "keywords": "{% if page.categoria %}{{page.categoria | join: ', '}}{% else %}{{site.keywords | join: ', '}}{% endif %}",
+      "image": {
+        "@type": "ImageObject",
+        "url": "{% if page.img %}https://www.buenacazascout.com/{{page.img}}{% else %}https://www.buenacazascout.com/{{ site.logo }}{% endif %}",
+        "height": "300",
+        "width": "320"
+      },
+      "publisher": {
+        "@type": "EducationalOrganization",
+        "name": "{{ site.name }}",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Pasaje Las Aspas 11280",
+          "addressLocality": "La Florida",
+          "addressRegion": "Santiago",
+          "addressCountry": "Chile",
+          "postalCode": "8301372"
+        },
+        "email": "{{ site.email }}",
+        "foundingDate": "2013-09-05",
+        "legalName": "BuenaCazaScout",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{ site.baseurl }}{{ site.logo }}",
+          "width": "60",
+          "height": "60"
+        }
+      }
+    }
+  ]
+}

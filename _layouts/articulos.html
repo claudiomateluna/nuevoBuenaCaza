@@ -1,0 +1,293 @@
+---
+layout: default
+---
+<div class="py4">{{page.titulo}}</div>
+<main class="max-width-5 mx-auto" role="main">
+	<article class="clearfix" role="article">
+		<div class="col col-12"></div>
+		<div class="p1 flex justify-center items-center">
+			<div class="cabImg">
+				<amp-img src="{{site.baseurl}}/{{page.img}}" alt="{{ page.title }}" width="320" height="300" layout="responsive" class="circle"></amp-img>
+				{% include detallesMoviles.html %}
+			</div>
+			{% include detalles.html %}
+		</div>
+		
+		{% if page.nudo1 != nil %}
+		<!--NUDOS-->
+		<aside class="col col-12 sm-col-6 md-col-4 lg-col-3 xs-hide sm-hide">
+			{% unless page.nudo1 == nil %}
+			<amp-img src="{{site.baseurl}}/{{page.nudo1}}"
+			  on="tap:lightbox1"
+			  role="button"
+			  tabindex="0"
+			  width="300"
+			  height="320"
+			  layout="responsive"
+			  alt="{{page.titulo}}"
+			  class="rounded">
+			</amp-img>
+			<hr class="hr_aside">
+			{% endunless %}
+			{% unless page.nudo2 == nil %}
+			<amp-img src="{{site.baseurl}}/{{page.nudo2}}"
+			  on="tap:lightbox1"
+			  role="button"
+			  tabindex="0"
+			  width="300"
+			  height="320"
+			  layout="responsive"
+			  alt="{{page.titulo}}"
+			  class="rounded">
+			</amp-img>
+			<hr class="hr_aside">
+			{% endunless %}
+			{% unless page.nudo3 == nil %}
+			<amp-img src="{{site.baseurl}}/{{page.nudo3}}"
+			  on="tap:lightbox1"
+			  role="button"
+			  tabindex="0"
+			  width="300"
+			  height="320"
+			  layout="responsive"
+			  alt="{{page.titulo}}"
+			  class="rounded">
+			</amp-img>
+			<hr class="hr_aside">
+			{% endunless %}
+			{% unless page.nudo4 == nil %}
+			<amp-img src="{{site.baseurl}}/{{page.nudo4}}"
+			  on="tap:lightbox1"
+			  role="button"
+			  tabindex="0"
+			  width="300"
+			  height="320"
+			  layout="responsive"
+			  alt="{{page.titulo}}"
+			  class="rounded">
+			</amp-img>
+			<hr class="hr_aside">
+			{% endunless %}
+			<amp-image-lightbox id="lightbox1" layout="nodisplay"></amp-image-lightbox>
+		</aside>
+
+		{% elsif page.ficha1 != nil %}
+		<!--FICHAS-->
+		<aside class="col col-12 sm-col-6 md-col-4 lg-col-3 xs-hide sm-hide">
+			{% unless page.ficha1 == nil %}
+			<amp-img src="{{site.baseurl}}/{{page.ficha1}}"
+			  on="tap:lightbox1"
+			  role="button"
+			  tabindex="0"
+			  width="300"
+			  height="320"
+			  layout="responsive"
+			  alt="{{page.titulo}}"
+			  class="rounded">
+			</amp-img>
+			<hr class="hr_aside">
+			{% endunless %}
+			{% unless page.ficha2 == nil %}
+			<amp-img src="{{site.baseurl}}/{{page.ficha2}}"
+			  on="tap:lightbox1"
+			  role="button"
+			  tabindex="0"
+			  width="300"
+			  height="320"
+			  layout="responsive"
+			  alt="{{page.titulo}}"
+			  class="rounded">
+			</amp-img>
+			<hr class="hr_aside">
+			{% endunless %}
+			{% unless page.ficha3 == nil %}
+			<amp-img src="{{site.baseurl}}/{{page.ficha3}}"
+			  on="tap:lightbox1"
+			  role="button"
+			  tabindex="0"
+			  width="300"
+			  height="320"
+			  layout="responsive"
+			  alt="{{page.titulo}}"
+			  class="rounded">
+			</amp-img>
+			<hr class="hr_aside">
+			{% endunless %}
+			{% unless page.ficha4 == nil %}
+			<amp-img src="{{site.baseurl}}/{{page.ficha4}}"
+			  on="tap:lightbox1"
+			  role="button"
+			  tabindex="0"
+			  width="300"
+			  height="320"
+			  layout="responsive"
+			  alt="{{page.titulo}}"
+			  class="rounded">
+			</amp-img>
+			<hr class="hr_aside">
+			{% endunless %}
+			<amp-image-lightbox id="lightbox1" layout="nodisplay"></amp-image-lightbox>
+		</aside>
+		{% else %}
+		<aside class="col col-12 sm-col-6 md-col-4 lg-col-3 xs-hide sm-hide">
+			.
+		</aside>
+		{% endif %}
+
+		<div class="col col-12 sm-col-6 md-col-8 lg-col-9 px1">
+			<div class="contenido">
+				{% unless page.objetivos == nil %}
+					<h3>Objetivos</h3>
+					{{page.objetivos}}
+					<hr class="hr_contenido">
+				{% endunless %}
+
+				{% unless page.materiales == nil %}
+					<h3>Materiales</h3>
+					{{page.materiales}}
+					<hr class="hr_contenido">
+				{% endunless %}
+
+				<h3>Descripción</h3>
+				{{ content }}
+				<hr class="hr_contenido">
+				{% for c in site.libros %}
+					{% if c.titulo == page.titulo %}
+						{{page.resumen}}
+						<hr class="hr_contenido">
+					{% endif %}
+				{% endfor %}
+
+				{% unless page.variaciones == nil %}
+					<h3>Variaciones</h3>
+					{{page.variaciones}}
+					<hr class="hr_contenido">
+				{% endunless %}
+
+				{% unless page.recomendaciones == nil %}
+					<h3>Recomendaciones</h3>
+					{{page.recomendaciones}}
+					<hr class="hr_contenido">
+				{% endunless %}
+			</div>
+		</div>
+
+		{% if page.nudo1 != nil %}
+		<!--NUDOS-->
+		<aside class="col col-12 sm-col-6 md-col-4 lg-col-3 md-hide lg-hide">
+			{% unless page.nudo1 == nil %}
+			<amp-img src="{{site.baseurl}}/{{page.nudo1}}"
+			  on="tap:lightbox1"
+			  role="button"
+			  tabindex="0"
+			  width="300"
+			  height="320"
+			  layout="responsive"
+			  alt="{{page.titulo}}"
+			  class="rounded">
+			</amp-img>
+			<hr class="hr_aside">
+			{% endunless %}
+			{% unless page.nudo2 == nil %}
+			<amp-img src="{{site.baseurl}}/{{page.nudo2}}"
+			  on="tap:lightbox1"
+			  role="button"
+			  tabindex="0"
+			  width="300"
+			  height="320"
+			  layout="responsive"
+			  alt="{{page.titulo}}"
+			  class="rounded">
+			</amp-img>
+			<hr class="hr_aside">
+			{% endunless %}
+			{% unless page.nudo3 == nil %}
+			<amp-img src="{{site.baseurl}}/{{page.nudo3}}"
+			  on="tap:lightbox1"
+			  role="button"
+			  tabindex="0"
+			  width="300"
+			  height="320"
+			  layout="responsive"
+			  alt="{{page.titulo}}"
+			  class="rounded">
+			</amp-img>
+			<hr class="hr_aside">
+			{% endunless %}
+			{% unless page.nudo4 == nil %}
+			<amp-img src="{{site.baseurl}}/{{page.nudo4}}"
+			  on="tap:lightbox1"
+			  role="button"
+			  tabindex="0"
+			  width="300"
+			  height="320"
+			  layout="responsive"
+			  alt="{{page.titulo}}"
+			  class="rounded">
+			</amp-img>
+			<hr class="hr_aside">
+			{% endunless %}
+			<amp-image-lightbox id="lightbox1" layout="nodisplay"></amp-image-lightbox>
+		</aside>
+		{% endif %}
+
+		{% if page.ficha1 != nil %}
+		<!--FICHAS-->
+		<aside class="col col-12 sm-col-6 md-col-4 lg-col-3 md-hide lg-hide">
+			{% unless page.ficha1 == nil %}
+			<amp-img src="{{site.baseurl}}/{{page.ficha1}}"
+			  on="tap:lightbox1"
+			  role="button"
+			  tabindex="0"
+			  width="300"
+			  height="320"
+			  layout="responsive"
+			  alt="{{page.titulo}}"
+			  class="rounded">
+			</amp-img>
+			<hr class="hr_aside">
+			{% endunless %}
+			{% unless page.ficha2 == nil %}
+			<amp-img src="{{site.baseurl}}/{{page.ficha2}}"
+			  on="tap:lightbox1"
+			  role="button"
+			  tabindex="0"
+			  width="300"
+			  height="320"
+			  layout="responsive"
+			  alt="{{page.titulo}}"
+			  class="rounded">
+			</amp-img>
+			<hr class="hr_aside">
+			{% endunless %}
+			{% unless page.ficha3 == nil %}
+			<amp-img src="{{site.baseurl}}/{{page.ficha3}}"
+			  on="tap:lightbox1"
+			  role="button"
+			  tabindex="0"
+			  width="300"
+			  height="320"
+			  layout="responsive"
+			  alt="{{page.titulo}}"
+			  class="rounded">
+			</amp-img>
+			<hr class="hr_aside">
+			{% endunless %}
+			{% unless page.ficha4 == nil %}
+			<amp-img src="{{site.baseurl}}/{{page.ficha4}}"
+			  on="tap:lightbox1"
+			  role="button"
+			  tabindex="0"
+			  width="300"
+			  height="320"
+			  layout="responsive"
+			  alt="{{page.titulo}}"
+			  class="rounded">
+			</amp-img>
+			<hr class="hr_aside">
+			{% endunless %}
+			<amp-image-lightbox id="lightbox1" layout="nodisplay"></amp-image-lightbox>
+		</aside>
+		{% endif %}
+	</article>
+</main>

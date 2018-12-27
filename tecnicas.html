@@ -1,0 +1,63 @@
+---
+layout: paginas
+titulo: Técnicas
+priority: 0.9
+changefreq: weekly
+---
+<div class="max-width-3 mx-auto">
+	{% assign tecnicas = site.tecnicas | sort: "orden" | reverse %}
+	{% for tecnica in tecnicas limit:1 %}
+		<div class="p1 flex justify-center items-center">
+			<div class="ListaArtImgMain">
+				<amp-img src="{{ site.baseurl }}/{{ tecnica.img }}" alt="{{ tecnica.title }}" width="320" height="300" layout="responsive" class="circle"></amp-img>
+				<div class="ListaArtTitMainB z2 lg-hide md-hide">
+					<a href="{{ site.baseurl }}{{ tecnica.url }}">{{ tecnica.titulo }}</a>
+				</div>
+				<div class="ListaArtPMainB overflow-hidden lg-hide md-hide">
+					<p>{{ tecnica.resumen | strip_html | truncatewords: 38 }}</p>
+				</div>
+				<div class="ListaMasB lg-hide md-hide">
+					<a href="{{ site.baseurl }}{{ tecnica.url }}">Quiero más información</a>
+				</div>
+			</div>
+			<div class="z2 xs-hide sm-hide">
+				<div class="ListaArtTitMain">
+					<a href="{{ site.baseurl }}{{ tecnica.url }}">{{ tecnica.titulo }}</a>
+				</div>
+				<div class="ListaArtPMain overflow-hidden p1">
+					<p>{{ tecnica.resumen | strip_html | truncatewords: 38 }}</p>
+				</div>
+				<div class="ListaMas">
+					<a href="{{ site.baseurl }}{{ tecnica.url }}">Quiero más información</a>
+				</div>
+			</div>
+		</div>
+	{% endfor %}
+</div>
+<div class="clearfix">
+	{% assign tecnicas = site.tecnicas | sort: "orden" | reverse %}
+	{% for tecnica in tecnicas offset: 1 %}
+	<div class="col col-12 sm-col-12 md-col-6 lg-col-6">
+		<div class="list-reset ml1">
+			<div class="p1 flex justify-start items-center">
+				<div class="ListaArtImg">
+					<amp-img src="{{ site.baseurl }}/{{ tecnica.img }}" alt="{{ tecnica.title }}" width="320" height="300" layout="responsive" class="circle"></amp-img>
+				</div>
+				<div class="z2">
+					<div class="ListaArtTit">
+						<h5>
+							<a href="{{ site.baseurl }}{{ tecnica.url }}">{{ tecnica.titulo }}</a>
+						</h5>
+					</div>
+					<div class="ListaArtP overflow-hidden p1">
+						<p>{{ tecnica.resumen | strip_html | truncatewords: 38 }}</p>
+					</div>
+					<div class="ListaMas">
+						<a href="{{ site.baseurl }}{{ tecnica.url }}">Quiero más información</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	{% endfor %}
+</div>

@@ -1,0 +1,31 @@
+---
+layout: articulos
+titulo: Instrucción de la Patrulla
+img: img/varios/instruccion-patrulla.jpg
+categoria: [Varios, patrullas, guias de patrulla]
+ref_nombre: El Sistema de Patrullas
+ref_url: https://www.buenacazascout.com/libros/ElSistemaDePatrullas/
+resumen: El objetivo principal del Guía de Patrulla debe ser hacer interesante el trabajo. Debe dar instrucción suficiente, variada, y sólo en casos especiales consagrar más de media hora a un solo asunto
+orden: 32
+---
+Cada Guía debe adiestrar a su propia Patrulla. Excepto en una Tropa de reciente formación, el Guía no instruirá al Pietierno en algunas pruebas, como la de Espíritu Scout. La instrucción en materia de Religión será impartida por una persona competente. El Subguía probablemente será instruido por su Guía para llevar a un Aspirante a su casa y enseñarle las Pruebas de Pietierno o de Tercera Clase*. En muchas Tropas se espera que el Aspirante haya sido instruido en estas materias antes de inscribirlo en la Tropa. Naturalmente, se espera que el Guía concentre gran atención en la instrucción de Segunda Clase*. Aún en el caso de que todos los Scouts de la Patrulla tengan esta insignia, deben revisarse continuameiite las materias de Segunda Clase*. Esto mismo puede decirse de las Pruebas del Pietierno.
+
+El objetivo principal del Guía de Patrulla debe ser hacer interesante el trabajo. Debe dar instrucción suficiente, variada, y sólo en casos especiales consagrar más de media hora a un solo asunto.  
+
+El Guía no debe iniciar nunca una enseñanza sin antes explicar a sus Scouts la utilidad que hay en aprenderla. Conocer los dieciséis puntos principales de la Rosa de los Vientos no es de ninguna utilidad por sí mismo, si no se emplea este conocimientc para poder encontrar el camino en una localidad. El Guía debe decir a los Scouts que se imaginen extraviados en algún paraje, y que piensen si serían capaces de: (a) utilizar el sol y su reloj para orientarse; (b) cómo saldrían del apuro ante una niebla espesa; (c) cómo dirigirse durante una tempestad, con brújula; (d) cómo valerse de las constelaciones para orientarse y (e) cómo orientarse con un plano de la región. De igual modo, antes de dibujar un círculo con tiza en una empalizada, el Guía preguntará a sus Scouts qué método les parece mejor a cada uno para trazarlo. Rogará entonces a uno de ellos que dibuje el circulo que utilizará entonces para enseñarles los puntos esenciales de la brújula.
+
+En materia de primeros auxilios, dará una plática a sus muchachos acerca de los accidentes, antes de darles la enseñanza practica. Procurará encontrar en revistas y periódicos ejemplos de salvamentos hechos por los Scouts. No hablará él sólo todo el tiempo, sino que, manteniendo la disciplina, animará a sus Scouts a exponer sus opiniones oportunas y a expresarse sin timidez. No hay espacio en este libro para tratar todo lo relativo a las pruebas de Segunda Clase*, pero el Guía de Patrulla resultará competente para adiestrar a sus Scouts si se le han dado facilidades especiales para aprender por  cualquiera de los métodos sugeridos en los primeros capítulos.
+
+### Instrucción de la Patrulla en Especialidades
+
+El trabajo del J.T. no es precisamente el de enseñar a sus Scouts, sino ver que tengan la oportunidad de aprender. 
+
+Precisamente lo mismo puede decirse con respecto al Guía de Patnulla. El Guía experimentado y algo mayor de edad, está probablemente en posición de adiestrar a su Patrulla al menos en una Especialidad. Si, sin embargo, no está capacitado para hacer esto, puede llevar su Patrulla con alguien más para instrucción. Por ejemplo, puede llevar a su Patrulla una vez por semana a una piscina de la localidad, donde reciba instrucción en Natación de alguien que se haya comprometido a dar media  hora por semana en esta parte de adiestramiento. Puede asimismo, marchar con su Patrulla a la estación de bomberos, donde recibirán instrucción sobre la Especialidad de Bombero. Puede llevar a su Patrulla a la casa de la mamá de uno de sus patrulleros para recibir instrucción en Cocina. Algunos de los padres  de los Scouts pueden adiestrar a la Patrulla en Astronomía, Jardinería o Carpintería. Por otra parte, puede conseguir un Instructor que vaya al Local de Tropa. El Instructor puede ser el Jefe de Tropa, y dos Patrullas pueden recibir la misma instrucción de la misma persona al mismo tiempo. Esto no importa de ningún modo si la Patrulla se conserva como la unidad de estudio, y se hace sentir al Guía de Patrulla que él es responsable de la instrucción técnica de esa unidad.
+
+El adelanto de muchas Tropas se ve entorpecido y restringido por la falta de apreciación del Sistema de Patrulla. Una Patrulla trabajando en una cocina puede ser algo risible, pero una Tropa en la misma cocina sería algo de locura. Los Jefes de Tropa que adoptan la Patrulla como unidad de todo el  adiestramiento técnico logran progresos extraordinariamente rápidos en corto tiempo.
+
+El Fundador proclamó repetidas veces la conveniencia de que las Patrullas tuvieran una Especialidad común. Esto significa que en una Patrulla todos los Scouts tendrán, por ejemplo, la Especialidad de Habilidoso, en otra serán Ciclistas, y en una tercera Pioneros. Si toda una Patrulla posee la misma  Especialidad, esa insignia puede agregarse al Banderín de Patrulla. Esto es un incentivo adicional en el asunto de la especialización por Patrullas.
+
+Además del adiestramiento colectivo de la Patrulla en una Especialidad, hay algunas Especialidades que deben ser ganadas por los muchachos, individualmente o por parejas. En este caso el Guía de Patrulla debe ayudar acertadamente a que así sea. Estas especialidades pueden ser la de Músico, Botánico, Rastreador, Fotógrafo, etc. Un Guía encuentra que uno de sus Scouts puede tocar algo en un organillo, pregunta al Scout si está dispuesto a dar algo de su tiempo para aprender a leer música, y luego le consigue un instructor llevando antes el caso a la Corte de Honor.
+
+* Se refiere al esquema de adelanto vigente en esa época (N. del E.)

@@ -1,0 +1,609 @@
+---
+layout: default
+priority: 1.0
+changefreq: weekly
+amp_components:
+  - <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+  - <script async custom-element="amp-user-notification" src="https://cdn.ampproject.org/v0/amp-user-notification-0.1.js"></script>
+---
+<!--INICIO HERO-->
+<div class="pt4 parent">
+	<amp-img width="798" height="285" layout="responsive" src="/assets/bosque.svg"></amp-img>
+	<amp-img width="200" height="200" layout="responsive" src="/assets/logo_.svg" class="image2"></amp-img>
+</div>
+<!--FIN HERO-->
+<div class="pt4"></div>
+<!--INICIO ACTIVIDADES-->
+<div class="clearfix pt4 center">
+	<h2 class="caps">Actividades</h2>
+</div>
+<div class="clearfix mx-auto max-width-4">
+	<div class="sm-col sm-col-12 md-col-4 lg-col-4 max-width-4">
+		<div class="hero_ mx-auto">
+			<amp-carousel height="459" layout="fixed-height" type="carousel" class="mt2">
+			{% assign juegos = site.juegos | sort: "orden" | reverse %}
+			{% for juego in juegos limit:4 %}
+				<article class="news_items">
+					<amp-img src="{{ site.baseurl }}/{{ juego.img }}" alt="{{ juego.title }}" width="320" height="300" layout="responsive" class="rounded-top"></amp-img>
+					<div>
+						<header class="news_title center px1 py1 robotoSlab">
+							<h5>
+								<a href="{{ site.baseurl }}{{ juego.url }}">{{ juego.titulo | upcase }}</a>
+							</h5>
+						</header>
+						<section class="px1 pb1 center robotoSlib resumen">
+							<p>{{ juego.resumen | strip_html | truncatewords: 38 }}</p>
+						</section>
+					</div>
+					<div class="flex flex-wrap">
+						<div class="sociales col-8">
+							<amp-social-share type="email"
+								class="social-share"
+								width="40"
+								height="40"
+								data-param-text="Mira este juego de Buena Caza Scout"
+								data-param-url="{{ site.baseurl }}{{ juego.url }}"
+								data-param-attribution="Buena Caza Scout">
+							</amp-social-share>
+							<amp-social-share type="facebook"
+								class="social-share"
+								data-param-app_id="380130648676659"
+								data-param-quote="{{ juego.resumen }}"
+								data-param-href="{{ site.baseurl }}{{ juego.url }}"
+								width="40"
+								height="40"
+								data-param-text="Mira este juego de Buena Caza Scout"
+								data-param-url="{{ site.baseurl }}{{ juego.url }}"
+								data-param-attribution="Buena Caza Scout">
+							</amp-social-share>
+							<amp-social-share type="twitter"
+								class="social-share"
+								width="40"
+								height="40"
+								data-param-text="Mira este juego de Buena Caza Scout"
+								data-param-url="{{ site.baseurl }}{{ juego.url }}"
+								data-param-attribution="Buena Caza Scout">
+							</amp-social-share>
+							<amp-social-share type="whatsapp"
+								class="social-share"
+								width="40"
+								height="40"
+								data-param-text="Mira este juego de Buena Caza Scout"
+								data-param-url="{{ site.baseurl }}{{ juego.url }}"
+								data-param-attribution="Buena Caza Scout">
+							</amp-social-share>
+						</div>
+						<div class="col-4">
+							<a href="{{ site.baseurl }}{{ juego.url }}" class="leer">Leer más...</a>
+						</div>
+					</div>
+				</article>
+			{% endfor %}
+			</amp-carousel>
+			<div class="hr_paginas flex flex-wrap justify-around">
+				<a href="{{site.baseurl}}/juegos" class="masInfo robotoSlab center">Ver Más Actividades +</a>
+			</div>
+		</div>
+	</div>
+	<div class="sm-col sm-col-12 md-col-8 lg-col-8 xs-hide sm-hide">
+		<div class="list-reset ml1">
+			{% assign juegos = site.juegos | sort: "orden" %}
+			{% for juego in juegos limit:3 %}
+			<div class="p1 flex justify-start items-center">
+				<div class="ListaArtImg">
+					<amp-img src="{{ site.baseurl }}/{{ juego.img }}" alt="{{ juego.title }}" width="320" height="300" layout="responsive" class="circle"></amp-img>
+				</div>
+				<div class="z2">
+					<div class="ListaArtTit mxn3 col-6">
+						<h5>
+							<a href="{{ site.baseurl }}{{ juego.url }}">{{ juego.titulo | upcase }}</a>
+						</h5>
+					</div>
+					<div class="ListaArtP overflow-hidden p1">
+						<p>{{ juego.resumen | strip_html | truncatewords: 38 }}</p>
+					</div>
+					<div class="ListaMas">
+						<a href="{{ site.baseurl }}{{ juego.url }}">Quiero más información</a>
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>
+<!--FIN ACTIVIDADES-->
+<!--INICIO BIOGRAFIAS-->
+<div class="clearfix pt4 center">
+	<h2 class="caps">Biografias</h2>
+</div>
+<div class="clearfix mx-auto max-width-4">
+	<div class="sm-col sm-col-12 md-col-8 lg-col-8 xs-hide sm-hide">
+		<div class="list-reset ml1">
+			{% assign biografias = site.biografias | sort: "orden" %}
+			{% for biografia in biografias limit:3 %}
+			<div class="p1 flex justify-start items-center">
+				<div class="ListaArtImg">
+					<amp-img src="{{ site.baseurl }}/{{ biografia.img }}" alt="{{ biografia.title }}" width="320" height="300" layout="responsive" class="circle"></amp-img>
+				</div>
+				<div class="z2">
+					<div class="ListaArtTit mxn3 col-7">
+						<h5>
+							<a href="{{ site.baseurl }}{{ biografia.url }}">{{ biografia.titulo | upcase }}</a>
+						</h5>
+					</div>
+					<div class="ListaArtP overflow-hidden p1">
+						<p>{{ biografia.resumen | strip_html | truncatewords: 38 }}</p>
+					</div>
+					<div class="ListaMas">
+						<a href="{{ site.baseurl }}{{ biografia.url }}">Quiero más información</a>
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+	<div class="sm-col sm-col-12 md-col-4 lg-col-4 max-width-4">
+		<div class="hero_ mx-auto">
+			<amp-carousel height="459" layout="fixed-height" type="carousel" class="mt2">
+			{% assign biografias = site.biografias | sort: "orden" | reverse %}
+			{% for biografia in biografias limit:4 %}
+				<article class="news_items">
+					<amp-img src="{{ site.baseurl }}/{{ biografia.img }}" alt="{{ biografia.title }}" width="320" height="300" layout="responsive" class="rounded-top"></amp-img>
+					<div>
+						<header class="news_title center px1 py1 robotoSlab">
+							<h5>
+								<a href="{{ site.baseurl }}{{ biografia.url }}">{{ biografia.titulo | upcase }}</a>
+							</h5>
+						</header>
+						<section class="px1 pb1 center robotoSlib resumen">
+							<p>{{ biografia.resumen | strip_html | truncatewords: 38 }}</p>
+						</section>
+					</div>
+					<div class="flex flex-wrap">
+						<div class="sociales col-8">
+							<amp-social-share type="email"
+								class="social-share"
+								width="40"
+								height="40"
+								data-param-text="Mira esta biografia de Buena Caza Scout"
+								data-param-url="{{ site.baseurl }}{{ biografia.url }}"
+								data-param-attribution="Buena Caza Scout">
+							</amp-social-share>
+							<amp-social-share type="facebook"
+								class="social-share"
+								data-param-app_id="380130648676659"
+								data-param-quote="{{ biografia.resumen }}"
+								data-param-href="{{ site.baseurl }}{{ biografia.url }}"
+								width="40"
+								height="40"
+								data-param-text="Mira esta biografia de Buena Caza Scout"
+								data-param-url="{{ site.baseurl }}{{ biografia.url }}"
+								data-param-attribution="Buena Caza Scout">
+							</amp-social-share>
+							<amp-social-share type="twitter"
+								class="social-share"
+								width="40"
+								height="40"
+								data-param-text="Mira esta biografia de Buena Caza Scout"
+								data-param-url="{{ site.baseurl }}{{ biografia.url }}"
+								data-param-attribution="Buena Caza Scout">
+							</amp-social-share>
+							<amp-social-share type="whatsapp"
+								class="social-share"
+								width="40"
+								height="40"
+								data-param-text="Mira esta biografia de Buena Caza Scout"
+								data-param-url="{{ site.baseurl }}{{ biografia.url }}"
+								data-param-attribution="Buena Caza Scout">
+							</amp-social-share>
+						</div>
+						<div class="col-4">
+							<a href="{{ site.baseurl }}{{ biografia.url }}" class="leer">Leer más...</a>
+						</div>
+					</div>
+				</article>
+			{% endfor %}
+			</amp-carousel>
+			<div class="hr_paginas flex flex-wrap justify-around">
+				<a href="{{site.baseurl}}/biografias" class="masInfo robotoSlab center">Ver Más Biografias +</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!--FIN BIOGRAFIAS-->
+<!--INICIO HISTORIAS-->
+<div class="clearfix pt4 center">
+	<h2 class="caps">Historias</h2>
+</div>
+<div class="clearfix mx-auto max-width-4">
+	<div class="sm-col sm-col-12 md-col-4 lg-col-4 max-width-4">
+		<div class="hero_ mx-auto">
+			<amp-carousel height="459" layout="fixed-height" type="carousel" class="mt2">
+			{% assign historias = site.historias | sort: "orden" | reverse %}
+			{% for historia in historias limit:4 %}
+				<article class="news_items">
+					<amp-img src="{{ site.baseurl }}/{{ historia.img }}" alt="{{ historia.title }}" width="320" height="300" layout="responsive" class="rounded-top"></amp-img>
+					<div>
+						<header class="news_title center px1 py1 robotoSlab">
+							<h5>
+								<a href="{{ site.baseurl }}{{ historia.url }}">{{ historia.titulo | upcase }}</a>
+							</h5>
+						</header>
+						<section class="px1 pb1 center robotoSlib resumen">
+							<p>{{ historia.resumen | strip_html | truncatewords: 38 }}</p>
+						</section>
+					</div>
+					<div class="flex flex-wrap">
+						<div class="sociales col-8">
+							<amp-social-share type="email"
+								class="social-share"
+								width="40"
+								height="40"
+								data-param-text="Mira esta historia de Buena Caza Scout"
+								data-param-url="{{ site.baseurl }}{{ historia.url }}"
+								data-param-attribution="Buena Caza Scout">
+							</amp-social-share>
+							<amp-social-share type="facebook"
+								class="social-share"
+								data-param-app_id="380130648676659"
+								data-param-quote="{{ historia.resumen }}"
+								data-param-href="{{ site.baseurl }}{{ historia.url }}"
+								width="40"
+								height="40"
+								data-param-text="Mira esta historia de Buena Caza Scout"
+								data-param-url="{{ site.baseurl }}{{ historia.url }}"
+								data-param-attribution="Buena Caza Scout">
+							</amp-social-share>
+							<amp-social-share type="twitter"
+								class="social-share"
+								width="40"
+								height="40"
+								data-param-text="Mira esta historia de Buena Caza Scout"
+								data-param-url="{{ site.baseurl }}{{ historia.url }}"
+								data-param-attribution="Buena Caza Scout">
+							</amp-social-share>
+							<amp-social-share type="whatsapp"
+								class="social-share"
+								width="40"
+								height="40"
+								data-param-text="Mira esta historia de Buena Caza Scout"
+								data-param-url="{{ site.baseurl }}{{ historia.url }}"
+								data-param-attribution="Buena Caza Scout">
+							</amp-social-share>
+						</div>
+						<div class="col-4">
+							<a href="{{ site.baseurl }}{{ historia.url }}" class="leer">Leer más...</a>
+						</div>
+					</div>
+				</article>
+			{% endfor %}
+			</amp-carousel>
+			<div class="hr_paginas flex flex-wrap justify-around">
+				<a href="{{site.baseurl}}/historias" class="masInfo robotoSlab center">Ver Más Historias +</a>
+			</div>
+		</div>
+	</div>
+	<div class="sm-col sm-col-12 md-col-8 lg-col-8 xs-hide sm-hide">
+		<div class="list-reset ml1">
+			{% assign historias = site.historias | sort: "orden" %}
+			{% for historia in historias limit:3 %}
+			<div class="p1 flex justify-start items-center">
+				<div class="ListaArtImg">
+					<amp-img src="{{ site.baseurl }}/{{ historia.img }}" alt="{{ historia.title }}" width="320" height="300" layout="responsive" class="circle"></amp-img>
+				</div>
+				<div class="z2">
+					<div class="ListaArtTit mxn3 col-7">
+						<h5>
+							<a href="{{ site.baseurl }}{{ historia.url }}">{{ historia.titulo | upcase }}</a>
+						</h5>
+					</div>
+					<div class="ListaArtP overflow-hidden p1">
+						<p>{{ historia.resumen | strip_html | truncatewords: 38 }}</p>
+					</div>
+					<div class="ListaMas">
+						<a href="{{ site.baseurl }}{{ historia.url }}">Quiero más información</a>
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>
+<!--FIN HISTORIAS-->
+<!--INICIO LIBROS-->
+<div class="clearfix pt4 center">
+	<h2 class="caps">Libros</h2>
+</div>
+<div class="clearfix mx-auto max-width-4">
+	<div class="sm-col sm-col-12 md-col-8 lg-col-8 xs-hide sm-hide">
+		<div class="list-reset ml1">
+			{% assign libros = site.libros | sort: "orden" %}
+			{% for libro in libros limit:3 %}
+			<div class="p1 flex justify-start items-center">
+				<div class="ListaArtImg">
+					<amp-img src="{{ site.baseurl }}/{{ libro.img }}" alt="{{ libro.title }}" width="320" height="300" layout="responsive" class="circle"></amp-img>
+				</div>
+				<div class="z2">
+					<div class="ListaArtTit mxn3 col-7">
+						<h5>
+							<a href="{{ site.baseurl }}{{ libro.url }}">{{ libro.titulo | upcase }}</a>
+						</h5>
+					</div>
+					<div class="ListaArtP overflow-hidden p1">
+						<p>{{ libro.resumen | strip_html | truncatewords: 38 }}</p>
+					</div>
+					<div class="ListaMas">
+						<a href="{{ site.baseurl }}{{ libro.url }}">Quiero más información</a>
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+	<div class="sm-col sm-col-12 md-col-4 lg-col-4 max-width-4">
+		<div class="hero_ mx-auto">
+			<amp-carousel height="459" layout="fixed-height" type="carousel" class="mt2">
+			{% assign libros = site.libros | sort: "orden" | reverse %}
+			{% for libro in libros limit:4 %}
+				<article class="news_items">
+					<amp-img src="{{ site.baseurl }}/{{ libro.img }}" alt="{{ libro.title }}" width="320" height="300" layout="responsive" class="rounded-top"></amp-img>
+					<div>
+						<header class="news_title center px1 py1 robotoSlab">
+							<h5>
+								<a href="{{ site.baseurl }}{{ libro.url }}">{{ libro.titulo | upcase }}</a>
+							</h5>
+						</header>
+						<section class="px1 pb1 center robotoSlib resumen">
+							<p>{{ libro.resumen | strip_html | truncatewords: 38 }}</p>
+						</section>
+					</div>
+					<div class="flex flex-wrap">
+						<div class="sociales col-8">
+							<amp-social-share type="email"
+								class="social-share"
+								width="40"
+								height="40"
+								data-param-text="Mira este libro de Buena Caza Scout"
+								data-param-url="{{ site.baseurl }}{{ libro.url }}"
+								data-param-attribution="Buena Caza Scout">
+							</amp-social-share>
+							<amp-social-share type="facebook"
+								class="social-share"
+								data-param-app_id="380130648676659"
+								data-param-quote="{{ libro.resumen }}"
+								data-param-href="{{ site.baseurl }}{{ libro.url }}"
+								width="40"
+								height="40"
+								data-param-text="Mira este libro de Buena Caza Scout"
+								data-param-url="{{ site.baseurl }}{{ libro.url }}"
+								data-param-attribution="Buena Caza Scout">
+							</amp-social-share>
+							<amp-social-share type="twitter"
+								class="social-share"
+								width="40"
+								height="40"
+								data-param-text="Mira este libro de Buena Caza Scout"
+								data-param-url="{{ site.baseurl }}{{ libro.url }}"
+								data-param-attribution="Buena Caza Scout">
+							</amp-social-share>
+							<amp-social-share type="whatsapp"
+								class="social-share"
+								width="40"
+								height="40"
+								data-param-text="Mira este libro de Buena Caza Scout"
+								data-param-url="{{ site.baseurl }}{{ libro.url }}"
+								data-param-attribution="Buena Caza Scout">
+							</amp-social-share>
+						</div>
+						<div class="col-4">
+							<a href="{{ site.baseurl }}{{ libro.url }}" class="leer">Leer más...</a>
+						</div>
+					</div>
+				</article>
+			{% endfor %}
+			</amp-carousel>
+			<div class="hr_paginas flex flex-wrap justify-around">
+				<a href="{{site.baseurl}}/libros" class="masInfo robotoSlab center">Ver Más Libros +</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!--FIN LIBROS-->
+<!--INICIO TÉCNICAS-->
+<div class="clearfix pt4 center">
+	<h2 class="caps">tecnicas</h2>
+</div>
+<div class="clearfix mx-auto max-width-4">
+	<div class="sm-col sm-col-12 md-col-4 lg-col-4 max-width-4">
+		<div class="hero_ mx-auto">
+			<amp-carousel height="459" layout="fixed-height" type="carousel" class="mt2">
+			{% assign tecnicas = site.tecnicas | sort: "orden" | reverse %}
+			{% for tecnica in tecnicas limit:4 %}
+				<article class="news_items">
+					<amp-img src="{{ site.baseurl }}/{{ tecnica.img }}" alt="{{ tecnica.title }}" width="320" height="300" layout="responsive" class="rounded-top"></amp-img>
+					<div>
+						<header class="news_title center px1 py1 robotoSlab">
+							<h5>
+								<a href="{{ site.baseurl }}{{ tecnica.url }}">{{ tecnica.titulo | upcase }}</a>
+							</h5>
+						</header>
+						<section class="px1 pb1 center robotoSlib resumen">
+							<p>{{ tecnica.resumen | strip_html | truncatewords: 38 }}</p>
+						</section>
+					</div>
+					<div class="flex flex-wrap">
+						<div class="sociales col-8">
+							<amp-social-share type="email"
+								class="social-share"
+								width="40"
+								height="40"
+								data-param-text="Mira esta tecnica de Buena Caza Scout"
+								data-param-url="{{ site.baseurl }}{{ tecnica.url }}"
+								data-param-attribution="Buena Caza Scout">
+							</amp-social-share>
+							<amp-social-share type="facebook"
+								class="social-share"
+								data-param-app_id="380130648676659"
+								data-param-quote="{{ tecnica.resumen }}"
+								data-param-href="{{ site.baseurl }}{{ tecnica.url }}"
+								width="40"
+								height="40"
+								data-param-text="Mira esta tecnica de Buena Caza Scout"
+								data-param-url="{{ site.baseurl }}{{ tecnica.url }}"
+								data-param-attribution="Buena Caza Scout">
+							</amp-social-share>
+							<amp-social-share type="twitter"
+								class="social-share"
+								width="40"
+								height="40"
+								data-param-text="Mira esta tecnica de Buena Caza Scout"
+								data-param-url="{{ site.baseurl }}{{ tecnica.url }}"
+								data-param-attribution="Buena Caza Scout">
+							</amp-social-share>
+							<amp-social-share type="whatsapp"
+								class="social-share"
+								width="40"
+								height="40"
+								data-param-text="Mira esta tecnica de Buena Caza Scout"
+								data-param-url="{{ site.baseurl }}{{ tecnica.url }}"
+								data-param-attribution="Buena Caza Scout">
+							</amp-social-share>
+						</div>
+						<div class="col-4">
+							<a href="{{ site.baseurl }}{{ tecnica.url }}" class="leer">Leer más...</a>
+						</div>
+					</div>
+				</article>
+			{% endfor %}
+			</amp-carousel>
+			<div class="hr_paginas flex flex-wrap justify-around">
+				<a href="{{site.baseurl}}/tecnicas" class="masInfo robotoSlab center">Ver Más Técnicas +</a>
+			</div>
+		</div>
+	</div>
+	<div class="sm-col sm-col-12 md-col-8 lg-col-8 xs-hide sm-hide">
+		<div class="list-reset ml1">
+			{% assign tecnicas = site.tecnicas | sort: "orden" %}
+			{% for tecnica in tecnicas limit:3 %}
+			<div class="p1 flex justify-start items-center">
+				<div class="ListaArtImg">
+					<amp-img src="{{ site.baseurl }}/{{ tecnica.img }}" alt="{{ tecnica.title }}" width="320" height="300" layout="responsive" class="circle"></amp-img>
+				</div>
+				<div class="z2">
+					<div class="ListaArtTit mxn3 col-7">
+						<h5>
+							<a href="{{ site.baseurl }}{{ tecnica.url }}">{{ tecnica.titulo | upcase }}</a>
+						</h5>
+					</div>
+					<div class="ListaArtP overflow-hidden p1">
+						<p>{{ tecnica.resumen | strip_html | truncatewords: 38 }}</p>
+					</div>
+					<div class="ListaMas">
+						<a href="{{ site.baseurl }}{{ tecnica.url }}">Quiero más información</a>
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>
+<!--FIN TÉCNICAS-->
+<!--INICIO VARIOS-->
+<div class="clearfix pt4 center">
+	<h2 class="caps">Varios</h2>
+</div>
+<div class="clearfix mx-auto max-width-4">
+	<div class="sm-col sm-col-12 md-col-8 lg-col-8 xs-hide sm-hide">
+		<div class="list-reset ml1">
+			{% assign varios = site.varios | sort: "orden" %}
+			{% for vario in varios limit:3 %}
+			<div class="p1 flex justify-start items-center">
+				<div class="ListaArtImg">
+					<amp-img src="{{ site.baseurl }}/{{ vario.img }}" alt="{{ vario.title }}" width="320" height="300" layout="responsive" class="circle"></amp-img>
+				</div>
+				<div class="z2">
+					<div class="ListaArtTit mxn3 col-7">
+						<h5>
+							<a href="{{ site.baseurl }}{{ vario.url }}">{{ vario.titulo | upcase }}</a>
+						</h5>
+					</div>
+					<div class="ListaArtP overflow-hidden p1">
+						<p>{{ vario.resumen | strip_html | truncatewords: 38 }}</p>
+					</div>
+					<div class="ListaMas">
+						<a href="{{ site.baseurl }}{{ vario.url }}">Quiero más información</a>
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+	<div class="sm-col sm-col-12 md-col-4 lg-col-4 max-width-4">
+		<div class="hero_ mx-auto">
+			<amp-carousel height="459" layout="fixed-height" type="carousel" class="mt2">
+			{% assign varios = site.varios | sort: "orden" | reverse %}
+			{% for vario in varios limit:4 %}
+				<article class="news_items">
+					<amp-img src="{{ site.baseurl }}/{{ vario.img }}" alt="{{ vario.title }}" width="320" height="300" layout="responsive" class="rounded-top"></amp-img>
+					<div>
+						<header class="news_title center px1 py1 robotoSlab">
+							<h5>
+								<a href="{{ site.baseurl }}{{ vario.url }}">{{ vario.titulo | upcase }}</a>
+							</h5>
+						</header>
+						<section class="px1 pb1 center robotoSlib resumen">
+							<p>{{ vario.resumen | strip_html | truncatewords: 38 }}</p>
+						</section>
+					</div>
+					<div class="flex flex-wrap">
+						<div class="sociales col-8">
+							<amp-social-share type="email"
+								class="social-share"
+								width="40"
+								height="40"
+								data-param-text="Mira este artículo de Buena Caza Scout"
+								data-param-url="{{ site.baseurl }}{{ vario.url }}"
+								data-param-attribution="Buena Caza Scout">
+							</amp-social-share>
+							<amp-social-share type="facebook"
+								class="social-share"
+								data-param-app_id="380130648676659"
+								data-param-quote="{{ vario.resumen }}"
+								data-param-href="{{ site.baseurl }}{{ vario.url }}"
+								width="40"
+								height="40"
+								data-param-text="Mira este artículo de Buena Caza Scout"
+								data-param-url="{{ site.baseurl }}{{ vario.url }}"
+								data-param-attribution="Buena Caza Scout">
+							</amp-social-share>
+							<amp-social-share type="twitter"
+								class="social-share"
+								width="40"
+								height="40"
+								data-param-text="Mira este artículo de Buena Caza Scout"
+								data-param-url="{{ site.baseurl }}{{ vario.url }}"
+								data-param-attribution="Buena Caza Scout">
+							</amp-social-share>
+							<amp-social-share type="whatsapp"
+								class="social-share"
+								width="40"
+								height="40"
+								data-param-text="Mira este artículo de Buena Caza Scout"
+								data-param-url="{{ site.baseurl }}{{ vario.url }}"
+								data-param-attribution="Buena Caza Scout">
+							</amp-social-share>
+						</div>
+						<div class="col-4">
+							<a href="{{ site.baseurl }}{{ vario.url }}" class="leer">Leer más...</a>
+						</div>
+					</div>
+				</article>
+			{% endfor %}
+			</amp-carousel>
+			<div class="hr_paginas flex flex-wrap justify-around">
+				<a href="{{site.baseurl}}/varios" class="masInfo robotoSlab center">Ver Más Articulos +</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!--FIN VARIOS-->

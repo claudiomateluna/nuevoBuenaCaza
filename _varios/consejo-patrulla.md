@@ -1,0 +1,15 @@
+---
+layout: articulos
+titulo: El Consejo de Patrulla
+img: img/varios/consejo-patrulla.jpg
+categoria: [Varios, patrullas, guias de patrulla]
+ref_nombre: El Sistema de Patrullas
+ref_url: https://www.buenacazascout.com/libros/ElSistemaDePatrullas/
+resumen: El objeto principal de este Consejo es poner al Guía al corriente de los deseos y propósitos de sus Scouts, no existe limitación para las cuestiones que puedan discutirse en el Consejo de Patrulla
+orden: 33
+---
+Es algo excelente para una Patrulla tener su "Consejo de Patrulla", compuesto por todos sus miembros y con el Guía como presidente de debates. Ciertas Patrullas tienen la costumbre de reunirse una vez por semana en casa de uno de sus Scouts. Quiere decir esto que cada miembro de una Patrulla de siete recibe a sus hermanos Osos cada siete semanas. Después de la merienda o del chocolate pueden llevar a cabo su Reunión Propia para Scouts, si es que la acostumbran. Y entre el chocolate y esto último habrá tiempo suficiente para celebrar Consejo de Patrulla, aunque también puede celebrarse en cualquier otra ocasión.
+
+El objeto principal de este Consejo es poner al Guía al corriente de los deseos y propósitos de sus Scouts, de modo que pueda obrar de la manera más conforme con ellos. El Guía tiene un lugar en la Corte de Honor, no tanto para expresar sus puntos de vista personales, sino más bien como representante de su Patrulla. En materia de Especialidades, ya ha sido señalado que el Jefe de Tropa no debe imponer sus deseos a sus Guías, sino que debe llevar el asunto antes a la Corte de Honor. De igual modo, es aún más importante que el Guía de Patrulla no imponga sus deseos a su Patrulla, sino que debe, por lo menos siempre que sea posible, invitar a que su Patrulla decida por sí misma sobre cuáles Especialidades han  de trabajar. Esto tiende a fomentar el espíritu de cooperacion.
+
+Prácticamente, no existe limitación para las cuestiones que puedan discutirse en el Consejo de Patrulla. Si hay Concurso de Patrullas, en el cual cada Patrulla puede inscribir solamente tres Scouts, estos  tres deben ser escogidos por el Consejo de Patrulla. Si la Patrulla está haciendo buenas acciones, éstas también deben ser programadas y discutidas en las reuniones. Los casos de asistencia irregular, de nuevos Aspirantes, de Campamentos de Patrulla, de visitas entre Patrullas, etc., deben ser tratados en Consejo, y en algunos casos las Patrullas sostienen sus propios debates, tienen sus propias reglas especiales, y dirigen su periódico propio. Hay Patrullas Solitarias en ciertos pueblos que gozan de magnífica reputación como resultado de cuatro o cinco años de Escultismo tenaz, pero debe recordarse que toda Patrulla es, en muchos aspectos, una Patrulla Solitaria, es decir, que forma un todo completo, una comunidad que se basta a sí misma, que va por el mundo tratando de cumplir su deber para con Dios,  para con su Patria, para con su prójimo, y que obedece la Ley Scout. Se comprende que no podrá ayudar a otras gentes en cualquier ocasión a menos que sepa bastarse a sí misma. Esto es el por qué los Guías dedican tanto tiempo para adquirir conocimientos técnicos. 

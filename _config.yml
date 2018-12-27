@@ -1,0 +1,57 @@
+# Proyecto Google AMP para Guias y Scouts Nua Mana
+
+# Configuraciones del sitio
+
+title: Buena Caza Scout | Todo es Escultismo
+name: Buena Caza Scout
+address: > 
+  Pasaje Las Aspas 11280
+  La Florida, Santiago, Chile
+  C.P.: 8301372
+email: contacto@buenacazascout.com
+description: >
+  Encuentra juegos actividades dinámicas documentos manuales y técnicas
+  para scouts en nuestro sitio encontraras todo lo que un scout necesita
+logo: "/assets/images/logo.png"
+brand: "/assets/images/brand.png"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+permalink: /:title/
+exclude: ['README.md']
+keywords: ['Scout', 'scouts', 'tecnicas scouts', 'juegos scouts', 'historia scout', 'actividades']
+
+# Google Analytics
+analytics_id: "UA-50512204-1"
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  parse_block_html: true
+
+# Colecciones del sitio
+collections:
+  juegos:
+    output: true
+    categoria: ""
+    permalink: /:collection/:name
+  tecnicas:
+    output: true
+    categoria: ""
+    permalink: /:collection/:name
+  biografias:
+    output: true
+    categoria: ""
+    permalink: /:collection/:name
+  historias:
+    output: true
+    categoria: ""
+    permalink: /:collection/:name
+  varios:
+    output: true
+    categoria: ""
+    permalink: /:collection/:name
+  libros:
+    output: true
+    categoria: ""
+    permalink: /:collection/:name

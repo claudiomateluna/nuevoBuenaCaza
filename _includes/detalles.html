@@ -1,0 +1,241 @@
+<div class="z2 xs-hide sm-hide">
+	<div class="cabTitulo">
+		<div class="cabSvgH left">
+			<amp-img width="40" height="40" layout="responsive" src="{{site.baseurl}}/assets/svg/nombre.svg"></amp-img>
+		</div>
+		{{ page.titulo }}
+	</div>
+	<div class="cabCompartir">
+		<div class="left">
+			<div class="cabCompartirTitulo">Compartir</div>
+		</div>
+		<div class="right">
+			{% include compartir.html %}
+		</div>
+	</div>
+	<!--ACTIVIDADES-->
+	{% unless page.unidad == nil %}
+		<div class="cabItem overflow-hidden">
+			<div class="left">
+				<div class="cabSvg">
+					<amp-img width="25" height="25" layout="responsive" src="{{site.baseurl}}/assets/svg/unidades.svg"></amp-img>
+				</div>
+			</div>
+			<dt class="left cabItemTitulo">
+				Unidad:
+			</dt>
+			<dd class="right right-align">
+				{{page.unidad}}
+			</dd>
+		</div>
+	{% endunless %}
+	{% unless page.area == nil %}
+		<div class="cabItem overflow-hidden">
+			<div class="left">
+				<div class="cabSvg">
+					<amp-img width="25" height="25" layout="responsive" src="{{site.baseurl}}/assets/svg/area.svg"></amp-img>
+				</div>
+			</div>
+			<dt class="left cabItemTitulo">
+				Área:
+			</dt>
+			<dd class="right right-align">
+				{% assign cabArea = {{page.area}} %}
+				{% for item in cabArea %}
+				<span class="cabItemHash">#{{item}}</span>
+				{% endfor %}
+			</dd>
+		</div>
+	{% endunless %}
+	{% unless page.lugar == nil %}
+		<div class="cabItem overflow-hidden">
+			<div class="left">
+				<div class="cabSvg">
+					<amp-img width="25" height="25" layout="responsive" src="{{site.baseurl}}/assets/svg/lugar.svg"></amp-img>
+				</div>
+			</div>
+			<dt class="left cabItemTitulo">
+				Lugar:
+			</dt>
+			<dd class="right right-align">
+				{% assign cabLugar = {{page.lugar}} %}
+				{% for item in cabLugar %}
+				<span class="cabItemHash">#{{item}}</span>
+				{% endfor %}
+			</dd>
+		</div>
+	{% endunless %}
+	{% unless page.duracion == nil %}
+		<div class="cabItem overflow-hidden">
+			<div class="left">
+				<div class="cabSvg">
+					<amp-img width="25" height="25" layout="responsive" src="{{site.baseurl}}/assets/svg/duracion.svg"></amp-img>
+				</div>
+			</div>
+			<dt class="left cabItemTitulo">
+				Duración:
+			</dt>
+			<dd class="right right-align">
+				{{page.duracion}} Minutos
+			</dd>
+		</div>
+	{% endunless %}
+	{% unless page.participantes == nil %}
+		<div class="cabItem overflow-hidden">
+			<div class="left">
+				<div class="cabSvg">
+					<amp-img width="25" height="25" layout="responsive" src="{{site.baseurl}}/assets/svg/participantes.svg"></amp-img>
+				</div>
+			</div>
+			<dt class="left cabItemTitulo">
+				Participantes:
+			</dt>
+			<dd class="right right-align">
+				{{page.participantes}}
+			</dd>
+		</div>
+	{% endunless %}
+	<!--LIBROS-->
+	{% unless page.pdf == nil %}
+	<a href="{{site.baseurl}}/{{page.pdf}}">
+		<div class="cabItem overflow-hidden cabPdf">
+			<div class="left">
+				<div class="cabSvg">
+					<i class="fas fa-file-download"></i>
+				</div>
+			</div>
+			<dt class="left cabItemTitulo">
+				Descargar PDF
+			</dt>
+			<dd class="right cabSvg">
+				<amp-img width="25" height="25" layout="responsive" src="{{site.baseurl}}/assets/svg/pdf.svg"></amp-img>
+			</dd>
+		</div>
+	</a>
+	{% endunless %}
+	{% unless page.autor == nil %}
+		<div class="cabItem overflow-hidden">
+			<div class="left">
+				<div class="cabSvg">
+					<amp-img width="25" height="25" layout="responsive" src="{{site.baseurl}}/assets/svg/autor.svg"></amp-img>
+				</div>
+			</div>
+			<dt class="left cabItemTitulo">
+				Autor:
+			</dt>
+			<dd class="right right-align">
+				{{ page.autor }}
+			</dd>
+		</div>
+	{% endunless %}
+	{% unless page.publicado == nil %}
+		<div class="cabItem overflow-hidden">
+			<div class="left">
+				<div class="cabSvg">
+					<amp-img width="25" height="25" layout="responsive" src="{{site.baseurl}}/assets/svg/publicado.svg"></amp-img>
+				</div>
+			</div>
+			<dt class="left cabItemTitulo">
+				Publicado:
+			</dt>
+			<dd class="right right-align">
+				{{ page.publicado }}
+			</dd>
+		</div>
+	{% endunless %}
+	{% unless page.editorial == nil %}
+		<div class="cabItem overflow-hidden">
+			<div class="left">
+				<div class="cabSvg">
+					<amp-img width="25" height="25" layout="responsive" src="{{site.baseurl}}/assets/svg/editorial.svg"></amp-img>
+				</div>
+			</div>
+			<dt class="left cabItemTitulo">
+				Editorial:
+			</dt>
+			<dd class="right right-align">
+				{{ page.editorial }}
+			</dd>
+		</div>
+	{% endunless %}
+	<!--BIOGRAFIAS-->
+	{% unless page.pais == nil %}
+		<div class="cabItem overflow-hidden">
+			<div class="left">
+				<div class="cabSvg">
+					<amp-img width="25" height="25" layout="responsive" src="{{site.baseurl}}/assets/svg/pais.svg"></amp-img>
+				</div>
+			</div>
+			<dt class="left cabItemTitulo">
+				País:
+			</dt>
+			<dd class="right right-align">
+				{{page.pais}}
+			</dd>
+		</div>
+	{% endunless %}
+	{% unless page.nacimiento == nil %}
+		<div class="cabItem overflow-hidden">
+			<div class="left">
+				<div class="cabSvg">
+					<amp-img width="25" height="25" layout="responsive" src="{{site.baseurl}}/assets/svg/nacimiento.svg"></amp-img>
+				</div>
+			</div>
+			<dt class="left cabItemTitulo">
+				Nacimiento:
+			</dt>
+			<dd class="right right-align">
+				{{ page.nacimiento | date: "%B, %Y" }}
+			</dd>
+		</div>
+	{% endunless %}
+	{% unless page.defuncion == nil %}
+		<div class="cabItem overflow-hidden">
+			<div class="left">
+				<div class="cabSvg">
+					<amp-img width="25" height="25" layout="responsive" src="{{site.baseurl}}/assets/svg/defuncion.svg"></amp-img>
+				</div>
+			</div>
+			<dt class="left cabItemTitulo">
+				Defuncion:
+			</dt>
+			<dd class="right right-align">
+				{{ page.defuncion | date: "%B, %Y" }}
+			</dd>
+		</div>
+	{% endunless %}
+	<!--TODOS-->
+	{% unless page.categoria == nil %}
+		<div class="cabItem overflow-hidden">
+			<div class="left">
+				<div class="cabSvg">
+					<amp-img width="25" height="25" layout="responsive" src="{{site.baseurl}}/assets/svg/categoria.svg"></amp-img>
+				</div>
+			</div>
+			<dt class="left cabItemTitulo">
+				Categorias:
+			</dt>
+			<dd class="right right-align">
+				{% assign cabCat = {{page.categoria}} %}
+				{% for item in cabCat %}
+				<span class="cabItemHash">#{{item}}</span>
+				{% endfor %}
+			</dd>
+		</div>
+	{% endunless %}
+	{% unless page.ref_nombre == "." or page.ref_nombre == nil %}
+		<div class="cabItem overflow-hidden">
+			<div class="left">
+				<div class="cabSvg">
+					<amp-img width="25" height="25" layout="responsive" src="{{site.baseurl}}/assets/svg/referencia.svg"></amp-img>
+				</div>
+			</div>
+			<dt class="left cabItemTitulo">
+				Referencia:
+			</dt>
+			<dd class="right right-align">
+				{% unless page.ref_url == nil %}<a target="_blank" href="{{page.ref_url}}">{% endunless %}{{page.ref_nombre}}{% unless page.ref_url == nil %}</a>{% endunless %}
+			</dd>
+		</div>
+	{% endunless %}
+</div>

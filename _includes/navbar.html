@@ -1,0 +1,10 @@
+<header class="ampstart-headerbar flex justify-start items-center fixed z2 top-0 left-0 right-0">
+	<div role="button" aria-label="open sidebar" on="tap:sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger px2 border1header">☰</div>
+	<div class="px2 border1header">
+		{% include brand.html %}
+	</div>
+	<nav class="ampstart-nav">
+		{% include social.html %}
+	</nav>
+</header>
+{% include sidebar.html %}
