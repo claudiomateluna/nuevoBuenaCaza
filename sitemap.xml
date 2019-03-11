@@ -1,0 +1,36 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	{% for page in site.pages %}
+		{% if page.layout %}
+			<url>
+			  <loc>{{site.baseurl}}{{page.url}}</loc>
+			  {% if page.changefreq %}
+			  <changefreq>{{page.changefreq}}</changefreq>
+			  {% endif %}
+			  {% if page.priority %}
+			  <priority>{{page.priority}}</priority>
+			  {% endif %}
+			</url>
+		{% endif %}
+	{% endfor %}
+	{% for juego in site.juegos %}
+		{% include sitemap-entry.xml entry=juego %}
+	{% endfor %}
+	{% for tecnica in site.tecnicas %}
+		{% include sitemap-entry.xml entry=tecnica %}
+	{% endfor %}
+	{% for biografia in site.biografias %}
+		{% include sitemap-entry.xml entry=biografia %}
+	{% endfor %}
+	{% for historia in site.historias %}
+		{% include sitemap-entry.xml entry=historia %}
+	{% endfor %}
+	{% for vario in site.varios %}
+		{% include sitemap-entry.xml entry=vario %}
+	{% endfor %}
+	{% for libro in site.libros %}
+		{% include sitemap-entry.xml entry=libro %}
+	{% endfor %}
+</urlset> 

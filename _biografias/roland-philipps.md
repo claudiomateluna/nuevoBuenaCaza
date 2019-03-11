@@ -7,8 +7,8 @@ pais: Reino Unido
 lugar: Londres
 nacimiento: 1890-02-27
 defuncion: 1916-07-07
-ref_nombre: http://manualscout.cl/ficha-054.htm
-ref_url: Manual del explorador
+ref_nombre: Manual del explorador
+ref_url: http://manualscout.cl/ficha-054.htm
 resumen: escribió el libro El Sistema de Patrullas, que se convirtió en un complemento de Escultismo para muchachos...
 orden: 3
 ---
