@@ -130,4 +130,33 @@ collections:
       - {name: 'pdf', label: 'PDF', widget: 'file'}
       - {name: 'orden', label: 'Orden', widget: 'number'}
       - {name: 'tags', label: 'Etiquetas', widget: list, hint: 'Incorpore Etiquetas que se asocien a este libro son utilizadas para relacionar el contenido'}
+  - name: 'tecnicas'
+    label: 'Técnicas'
+    description: 'Edición e incorporación de tecnicas en el sitio'
+    identifier_field: titulo
+    folder: '_tecnicas'
+    create: true
+    fields: 
+      - {name: 'layout', label: 'Layout', widget: 'hidden', default: 'articulos'}
+      - {name: 'titulo', label: 'Titulo', widget: 'string'}
+      - {name: 'img', label: 'Imagen del Articulo', widget: 'image', hint: 'Imagen principal del articulo la misma que se muestra al lado derecho en la parte superior del mismo.'}
+      - {name: 'categoria', label: 'Categoria', widget: 'list', hint: 'Incorpore categorias que se asocien a esta tecnica'}
+      - {name: 'resumen', label: 'Resumen', widget: 'string'}
+      - {name: 'pdf', label: 'PDF', widget: 'file'}
+      - {name: 'orden', label: 'Orden', widget: 'number'}
+      - {name: 'body', label: 'Body', widget: 'markdown'}
+  - name: 'varios'
+    label: 'varios'
+    description: 'Edición e incorporación de varios en el sitio'
+    identifier_field: titulo
+    folder: '_varios'
+    create: true
+    fields: 
+      - {name: 'layout', label: 'Layout', widget: 'hidden', default: 'articulos'}
+      - {name: 'titulo', label: 'Titulo', widget: 'string'}
+      - {name: 'img', label: 'Imagen del Articulo', widget: 'image', hint: 'Imagen principal del articulo la misma que se muestra al lado derecho en la parte superior del mismo.'}
+      - {name: 'categoria', label: 'Categoria', widget: 'list', hint: 'Incorpore categorias que se asocien a esta tecnica'}
+      - {name: 'resumen', label: 'Resumen', widget: 'string'}
+      - {name: 'pdf', label: 'PDF', widget: 'file'}
+      - {name: 'orden', label: 'Orden', widget: 'number'}
       - {name: 'body', label: 'Body', widget: 'markdown'}
