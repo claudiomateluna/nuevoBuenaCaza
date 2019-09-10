@@ -10,7 +10,7 @@ ref_nombre: Scouts.org
 ref_url: http://www.scout.org/node/9691?language=es
 resumen: Más de 500 millones de personas han sido Scouts, incluyendo prominentes personas en todas las áreas.
 orden: 4
-tags [eventos]
+tags: [eventos]
 ---
 Hay más de 40 millones de Scouts, jóvenes y adultos, mujeres y hombres, en más de 200 países y territorios. Más de 500 millones de personas han sido Scouts, incluyendo prominentes personas en todas las áreas.
 

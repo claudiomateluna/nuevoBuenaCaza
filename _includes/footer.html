@@ -1,8 +1,8 @@
 <footer class="py2">
 	<div class="footer_sep"></div>
 	<div class="max-width-4 mx-auto">
-	{% if page.url contains 'biografias' %}
 		<div class="mt4"></div>
+	{% if page.url contains 'biografias' %}
 		<h4>Quizás también te guste</h4>
 		<div class="relatedPosts">
 		{% assign maxRelated = 4 %}
@@ -50,9 +50,56 @@
 			{% endif %}
 		{% endfor %}
 		</div>
-	
-{% else %}
-{% endif %}
+	{% elsif page.url contains 'historias' %}
+		<h4>Quizás también te guste</h4>
+		<div class="relatedPosts">
+		{% assign maxRelated = 4 %}
+		{% assign minCommonTags =  1 %}
+		{% assign maxRelatedCounter = 0 %}
+		{% for historias in site.historias %}
+			{% assign sameTagCount = 0 %}
+			{% assign commonTags = '' %}
+			{% for tag in historias.tags %}
+				{% if historias.url != page.url %}
+					{% if page.tags contains tag %}
+						{% assign sameTagCount = sameTagCount | plus: 1 %}
+						{% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
+						{% assign commonTags = commonTags | append: tagmarkup %}
+					{% endif %}
+				{% endif %}
+			{% endfor %}
+			{% if sameTagCount >= minCommonTags %}
+				<div class="col col-12 sm-col-12 md-col-6 lg-col-6">
+					<div class="list-reset ml1">
+						<div class="p1 flex justify-start items-center">
+							<div class="ListaArtImg">
+								<amp-img src="{{ site.baseurl }}/{{ historias.img }}" alt="{{ historias.title }}" width="320" height="300" layout="responsive" class="circle"></amp-img>
+							</div>
+							<div class="z2">
+								<div class="ListaArtTit">
+									<h5>
+									<a href="{{ site.baseurl }}{{ historias.url }}">{{ historias.titulo }}</a>
+									</h5>
+								</div>
+								<div class="ListaArtP overflow-hidden p1">
+									<p>{{ historias.resumen | strip_html | truncatewords: 38 }}</p>
+								</div>
+								<div class="ListaMas">
+									<a href="{{ site.baseurl }}{{ historias.url }}">Quiero más información</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				{% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+				{% if maxRelatedCounter >= maxRelated %}
+					{% break %}
+				{% endif %}
+			{% endif %}
+		{% endfor %}
+		</div>
+		{% else %}
+	{% endif %}
 	<div class="pt2 center">
 		{% include brand.html %}
 	</div>
