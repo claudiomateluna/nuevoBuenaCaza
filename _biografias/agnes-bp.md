@@ -2,9 +2,7 @@
 layout: articulos
 titulo: Agnes Smyth Baden-Powell
 img: img/biografias/agnes_bp.jpg
-categoria:
-  - Biografias
-  - girls guides
+categoria: [Biografias, girls guides]
 pais: Reino Unido
 lugar: Londres
 nacimiento: 1858-12-16
