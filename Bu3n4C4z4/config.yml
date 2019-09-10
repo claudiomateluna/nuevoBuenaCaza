@@ -47,8 +47,10 @@ collections:
   - name: 'biografias'
     label: 'Biografías'
     description: 'Edición e incorporación de biografías en el sitio'
+    identifier_field: titulo
     folder: '_biografias'
     create: true
+    media_folder: 'img/biografias'
     fields: 
       - name: 'layout'
         label: 'Layout'
