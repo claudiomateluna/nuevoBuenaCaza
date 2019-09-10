@@ -2,15 +2,23 @@
 layout: articulos
 titulo: Agnes Smyth Baden-Powell
 img: img/biografias/agnes_bp.jpg
-categoria: [Biografias, girls guides]
+categoria:
+  - Biografias
+  - girls guides
 pais: Reino Unido
 lugar: Londres
-nacimiento: 1858-12-16
-defuncion: 1945-06-02
+nacimiento: 1858-12-16T00:00:00.000Z
+defuncion: 1945-06-02T00:00:00.000Z
 ref_nombre: El Cuaderno del viejo lobo
-ref_url: http://elcuadernodelviejolobo.blogspot.com/p/personajes-scouts.html
-resumen: fue una de las personas más influyentes en el desarrollo del Guidismo desde sus inicios. por encargo de su hermano, se involucró con la correcta organización de las Guías Scouts desde el principio
+ref_url: 'http://elcuadernodelviejolobo.blogspot.com/p/personajes-scouts.html'
+resumen: >-
+  fue una de las personas más influyentes en el desarrollo del Guidismo desde
+  sus inicios. por encargo de su hermano, se involucró con la correcta
+  organización de las Guías Scouts desde el principio
 orden: 4
+tags:
+  - guias
+  - baden-powell
 ---
 Agnes Smyth Baden Powell, nació el 16 de diciembre de 1858. Agnes Baden Powell fue una de las personas más influyentes en el desarrollo del Guidismo desde sus inicios.
 
@@ -18,7 +26,7 @@ Agnes, por encargo de su hermano, se involucró con la correcta organización de
 
 Ella enviudó cuando tenía 36 años y tuvo que criar a sus hijos ella sola.
 
-La familia era de clase alta y esto usualmente significaba que el dinero no era un problema. Agnes era menor que su hermano, Robert Baden Powell, y en el momento en el que ella aceptó encargarse de las guías (1910), ÉL ya estaba alrededor de los 52 años
+La familia era de clase alta y esto usualmente significaba que el dinero no era un problema. Agnes era menor que su hermano, Robert Baden Powell, y en el momento en el que ella aceptó encargarse de las guías (1910), él ya estaba alrededor de los 52 años
 
 Agnes era conocida por ser una gran música, que tocaba el órgano, el piano y el violín. Como artista, ella fue descrita como excelente en toda clase de manualidades, como el tejido y el trabajo con metales
 
