@@ -16,6 +16,7 @@ variaciones: En lugar de contar directamente se cuenta una historia y cuando dic
 recomendaciones: Recalque la importancia de la seguridad y el cuidado del más grande con el más pequeño.
 resumen: juego para fortalecer el caracter para niños desde los 12 años que busca desarrollar y estimular la capacidad de sigilo
 orden: 28
+tags: [juegos, juegos de habilidad, juegos nocturnos]
 ---
 Se juega a lo largo de un camino que tenga a los lados opciones de esconderse (por ejemplo un camino de un bosque).
 

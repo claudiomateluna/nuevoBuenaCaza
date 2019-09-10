@@ -11,4 +11,5 @@ pdf: pdf/8reunionesManada.pdf
 ref_nombre: Agrupación Nacional de Boys Scouts de Chile
 ref_url: http://www.boyscouts.cl/portal/index.php/descarga/category/7-literatura
 orden: 32
+tags: [libro, manada, lobatos]
 ---

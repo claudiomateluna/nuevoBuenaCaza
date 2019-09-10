@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Hemorragias
 img: img/tecnicas/hemorragia.jpg
-categoria: [Tecnicas, primeros auxilios, emergencia]
+categoria: [primeros auxilios, emergencia]
 ref_nombre: Osvaldo Camacho Velazquez
 ref_url: https://www.facebook.com/Oso.de.Lujo
 resumen: Hemorragia, perdida continúa de Sangre, secundaria a una herida o una enfermedad repentina o existente. Una hemorragia es la salida de sangre desde el aparato circulatorio

@@ -11,4 +11,5 @@ pdf: pdf/caracteristicasescultismo.pdf
 ref_nombre: .
 ref_url: #
 orden: 14
+tags: [libro, definiciones, oms]
 ---

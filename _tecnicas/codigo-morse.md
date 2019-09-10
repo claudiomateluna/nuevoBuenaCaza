@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Código Morse
 img: img/tecnicas/morse.jpg
-categoria: [Tecnicas, criptografia, pionerismo]
+categoria: [criptografia, pionerismo]
 ref_nombre: Soy Scout... ¿Y Qué?
 ref_url: https://scoutyque.wordpress.com/2013/01/30/codigo-morse-i/
 ficha1: img\tecnicas\fichas\ficha_morse.jpg

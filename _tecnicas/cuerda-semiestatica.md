@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Cuerdas Semi-Estaticas
 img: img/tecnicas/cuerda_semistatica.jpg
-categoria: [Tecnicas, cabuyeria, cuerdas, pionerismo]
+categoria: [cabuyeria, cuerdas, pionerismo]
 ref_nombre: ESPELEOSOCORRO CÁNTABRO
 ref_url: http://www.espeleosocorro.es/HTML/cuerdas%20semiestaticas.htm
 resumen: Tienen propiedades intermedias entre las cuerdas estáticas y las cuerdas dinámicas. Sus medidas están generalmente entre 9 y 12mm

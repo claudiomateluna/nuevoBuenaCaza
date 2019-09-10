@@ -11,4 +11,5 @@ pdf: pdf/CuadernoConstrucciones.pdf
 ref_nombre: ASDE
 ref_url: https://scout.es/cuaderno-construcciones/
 orden: 30
+tags: [libro, tecnicas, construcciones, campismo]
 ---

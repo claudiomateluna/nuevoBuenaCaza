@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Puntos de compresión para detener hemorragias
 img: img/tecnicas/hemorragias.jpg
-categoria: [Tecnicas, primeros auxilios, emergencia]
+categoria: [primeros auxilios, emergencia]
 ref_nombre: Técnica Scout
 ref_url: https://tecnicascout.wordpress.com/2009/08/18/puntos-de-compresin-para-detener-hemorragias/
 resumen: Existen dos tipos de hemorragias, las externas, en donde la sangre sale del cuerpo al exterior por un punto accesible, y las hemorragias internas, que no siempre son visibles...

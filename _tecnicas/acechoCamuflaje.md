@@ -7,6 +7,7 @@ ref_nombre: Associació Grup Scout Edelweiss X213
 ref_url: http://www.gruposcoutedelweiss.com/index.php?option=com_content&view=article&id=226:tecnicas-scouts-acecho&catid=59:tecnicas-scouts
 resumen: Algunos puntos a tener en cuenta para practicar acecho y camuflaje...
 orden: 40
+tags: [pionerismo, acecho]
 ---
 1.- En la naturaleza existen pocas rectas. El observador buscará siluetas y formas familiares para identificar a los rivales, como una cabeza, una figura humana, que es fácilmente reconocible si está recortada en el horizonte.
 

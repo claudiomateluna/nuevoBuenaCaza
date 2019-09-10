@@ -11,4 +11,5 @@ pdf: pdf/PlantasMedicinales.pdf
 ref_nombre: Plantas Medicinales
 ref_url: http://www.plantasmedicinales.cl/2014/guia-plantas-medicinales-roberto-chiej/
 orden: 16
+tags: [libro, pionerismo, plantas, tecnicas]
 ---

@@ -16,6 +16,7 @@ variaciones: Se pueden realizar imitaciones que pertecen al mismo grupo para aum
 recomendaciones: Recalque la importancia de la lealtad y del respeto.
 resumen: juego de expresión creativa para niños entre los 6 y 11 años que busca desarrollar y estimular la capacidad de creativa del participante dentro de un espiritu de cuerpo.
 orden: 29
+tags: [juegos, juegos de creatividad, juegos nocturnos, juegos para veladas]
 ---
 Se distribuye el grupo de jugadores por parejas.
 

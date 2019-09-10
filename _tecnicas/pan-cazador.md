@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Pan de Cazador
 img: img/tecnicas/panDelCazador.jpg
-categoria: [Tecnicas, cocina, recetas, campismo]
+categoria: [cocina, recetas, campismo]
 ref_nombre: Técnica Scout
 ref_url: https://tecnicascout.wordpress.com/2009/05/21/recetas-de-pan/
 resumen: El Pan del Cazador es practicamente una tradición para los scouts, es un pan muy crujiente y rico. Que por tradición puede hacerse en campamento...

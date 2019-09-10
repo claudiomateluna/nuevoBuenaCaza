@@ -11,4 +11,5 @@ pdf: pdf/aventurahacialaedadviril.pdf
 ref_nombre: Siempre Scout
 ref_url: http://www.siemprescout.org/
 orden: 13
+tags: [libro, reflexiones, baden-powell]
 ---

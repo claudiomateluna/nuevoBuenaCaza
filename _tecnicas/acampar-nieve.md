@@ -2,9 +2,10 @@
 layout: articulos
 titulo: Acampar en la Nieve
 img: img/tecnicas/nieve.jpg
-categoria: [Tecnicas, pionerismo, campismo, sobrevivencia]
+categoria: [pionerismo, campismo, sobrevivencia]
 resumen: Tomando unas mínimas precauciones podremos sobrevivir a las bajas temperaturas, ya que la nieve es un excelente aislante.
 orden: 3
+tags: [pionerismo, campismo, sobrevivencia]
 ---
 Acampar en la nieve puede ser en invierno la mejor manera de pasar la noche, si se da la circunstancia de que por cualquier motivo no hemos podido regresar a tiempo a la tienda para pernoctar. Tomando unas mínimas precauciones podremos sobrevivir a las bajas temperaturas, ya que la nieve es un excelente aislante.
 

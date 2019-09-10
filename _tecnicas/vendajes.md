@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Vendajes de codo, muñeca, rodilla, tobillo y cabestrillo
 img: img/tecnicas/vendajes.jpg
-categoria: [Tecnicas, primeros auxilios, vendas]
+categoria: [primeros auxilios, vendas]
 ref_nombre: Técnica Scout
 ref_url: http://tecnicascout.wordpress.com/2009/09/02/vendajes-de-codo-mueca-rodilla-tobillo-y-cabestrillo/
 resumen: Los vendajes son las ligaduras o procedimientos hechos con tiras de lienzo u otros materiales, con el fin de envolver una extremidad u otras partes del cuerpo humano lesionadas.

@@ -16,6 +16,7 @@ variaciones: En vez de barro puede ser alambre, variando la posición inicial y 
 recomendaciones: Se recomienda cambiar periódicamente de papeles para mantener dinamismo en el juego
 resumen: juego de expresión corporal para niños entre 6 y 11 años que busca Desarrollar la confianza, potenciar la expresión artística y cultural
 orden: 26
+tags: [juegos, juegos de conocimiento, juegos de expresion corporal, juegos de confianza]
 ---
 Este es un juego de expresión corporal.
 

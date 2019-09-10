@@ -11,4 +11,5 @@ pdf: pdf/ElSistemaDePatrullas.pdf
 ref_nombre: SiempreScout.org
 ref_url: http://siemprescout.org/
 orden: 24
+tags: [libro, sistema de patrullas]
 ---

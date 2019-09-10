@@ -16,6 +16,7 @@ variaciones: Para añadir dificultad aumente la cantidad de pelotas en juego al 
 recomendaciones: Recalque la importancia de la lealtad como principio del movimiento, así como el ser digno de confianza.
 resumen: juego de expresión social para niños desde los 11 años que busca desarrollar y estimular la capacidad de concentración.
 orden: 30
+tags: [juegos, juegos de habilidad, juegos con balon]
 ---
 Se dispone de un campo rectangular dividido en dos mitades. Cada equipo se sitúa en una mitad, excepto un jugador de cada uno de los equipos que se sitúa detrás del equipo contrarioEl juego consiste en tirar fuerte el balón al bando contrario para darles a algunos de sus jugadores. Si un jugador es alcanzado por un balón lanzado por el equipo contrario, y después de darle toca el suelo, irá a la parte posterior del campo, detrás del equipo contrario. Allí podrá seguir tirando al grupo contrario o pasar por alto al propio equipo. Si es el primer jugador “muerto” que pasa a la parte posterior, el jugador del propio equipo que estaba desde el comienzo, entra al terreno de juego.
 

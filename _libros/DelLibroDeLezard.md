@@ -11,4 +11,5 @@ pdf: pdf/DelLibroDeLezard.pdf
 ref_nombre: Travesía Scout
 ref_url: http://www.travesiascout.com/descargas
 orden: 23
+tags: [libro, guias, reflexiones]
 ---

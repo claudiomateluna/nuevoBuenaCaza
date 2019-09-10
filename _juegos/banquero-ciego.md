@@ -16,6 +16,7 @@ variaciones: Si no hay suficientes vendas, se pueden meter las monedas en una bo
 recomendaciones: Procure aprovechar la oportunidad para remarcar temas relativos al dinero o al trabajo desinteresado, y recalcar la importancia del adiestramiento de sentidos para un buen Scout.
 resumen: juego de creatividad para niños entre 6 y 11 años que busca Desarrollar los sentidos y estimular el pensamiento creativo.
 orden: 22
+tags: [juegos, juegos de habilidad, juegos de kim]
 ---
 Se sientan a todos los jugadores alrededor de un círculo con los ojos vendados.
 

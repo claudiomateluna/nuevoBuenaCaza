@@ -16,6 +16,7 @@ variaciones: puede usarse un sistema de quemados entre jinetes y caballos al mom
 recomendaciones: Procure que los muchach@s creen un ambiente de confianza y se respeten unos a otros, destacando la posibilidad de evitar cualquier accidente.
 resumen: juego de expresión corporal para niños y jovenes entre los 10 y 16 años que busca desarrollar un ambiente distendido y apoyar la confianza entre los pares.
 orden: 13
+tags: [juegos, juegos de habilidad, juegos de desfogue de energia, juegos de coordinacion]
 ---
 Se forman dos equipos, uno de caballos y otro de jinetes.
 

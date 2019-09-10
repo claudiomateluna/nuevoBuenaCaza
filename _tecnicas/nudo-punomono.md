@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Nudo Puño de Mono
 img: img/tecnicas/nudo_punomono.jpg
-categoria: [Tecnicas, cabuyeria, nudos, nudos de tope, nudos decorativos]
+categoria: [cabuyeria, nudos, nudos de tope, nudos decorativos]
 ref_nombre: Estiti
 ref_url: http://www.estiti.com/viento/nudos/barrilete-puno-de-mono.html
 resumen: Un puño de mono es un tipo de nudo, en inglés “Monkey's fist”, llamado de tal manera debido a que se asemeja a un puño pequeño o pata.

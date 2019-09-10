@@ -11,4 +11,5 @@ pdf: pdf/manualGuiaPatrulla.pdf
 ref_nombre: Issuu
 ref_url: http://issuu.com/mique106/docs/manual_del_guia_de_partulla
 orden: 21
+tags: [libro, Tecnicas, sistema de patrullas]
 ---

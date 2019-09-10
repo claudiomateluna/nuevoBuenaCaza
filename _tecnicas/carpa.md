@@ -2,7 +2,7 @@
 layout: articulos
 titulo: La Carpa
 img: img/tecnicas/carpa.jpg
-categoria: [Tecnicas, campismo, pionerismo]
+categoria: [campismo, pionerismo]
 ref_nombre: .
 ref_url: #
 ficha1: img\tecnicas\fichas\ficha_tecnica5.png

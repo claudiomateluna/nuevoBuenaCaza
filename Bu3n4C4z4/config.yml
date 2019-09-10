@@ -3,6 +3,7 @@ backend:
   repo: claudiomateluna/nuevoBuenaCaza
 
 media_folder: 'img/uploads'
+media_folder: 'pdf/uploads'
 
 collections:
   - name: 'configuracion-basica'
@@ -51,58 +52,20 @@ collections:
     folder: '_biografias'
     create: true
     fields: 
-      - name: 'layout'
-        label: 'Layout'
-        widget: 'hidden'
-        default: 'articulos'
-      - name: 'titulo'
-        label: 'Titulo'
-        widget: 'string'
-      - name: 'img'
-        label: 'Imagen del Articulo'
-        widget: 'image'
-        hint: 'Imagen principal del articulo la misma que se muestra al lado derecho en la parte superior del mismo.'
-      - name: 'categoria'
-        label: 'Categoria'
-        widget: 'list'
-        hint: 'Incorpore categorias que se asocien a esta biografía'
-      - name: 'pais'
-        label: 'Pais'
-        widget: 'string'
-        hint: 'Indique el país de nacimiento de este personaje'
-      - name: 'lugar'
-        label: 'Lugar'
-        widget: 'string'
-        hint: 'Indique el lugar o ciudad de nacimiento de este personaje'
-      - name: 'nacimiento'
-        label: 'Nacimiento'
-        widget: 'date'
-        hint: 'indique la fecha de nacimiento del personaje'
-      - name: 'defuncion'
-        label: 'Defunción'
-        widget: 'date'
-        hint: 'indique la fecha de defunción del personaje'
-      - name: 'ref_nombre'
-        label: 'Nombre de la Referencia'
-        widget: 'string'
-        hint: 'indique el nombre del sitio donde obtuvo esta biografía'
-      - name: 'ref_url'
-        label: 'URL de la Referencia'
-        widget: 'string'
-        hint: 'indique la URL del sitio donde obtuvo la biografía'
-      - name: 'resumen'
-        label: 'Resumen'
-        widget: 'string'
-        hint: 'Un breve resumen con menos de 140 caracteres sobre lo que trata esta Publicación'
-      - name: 'orden'
-        label: 'Orden'
-        widget: 'number'
-      - name: 'tags'
-        label: 'Etiquetas'
-        widget: list
-      - name: 'body'
-        label: 'Body'
-        widget: 'markdown'
+      - {name: 'layout', label: 'Layout', widget: 'hidden', default: 'articulos'}
+      - {name: 'titulo', label: 'Titulo', widget: 'string'}
+      - {name: 'img', label: 'Imagen del Articulo', widget: 'image', hint: 'Imagen principal del articulo la misma que se muestra al lado derecho en la parte superior del mismo.'}
+      - {name: 'categoria', label: 'Categoria', widget: 'list', hint: 'Incorpore categorias que se asocien a esta biografía'}
+      - {name: 'pais', label: 'Pais', widget: 'string', hint: 'Indique el país de nacimiento de este personaje'}
+      - {name: 'lugar', label: 'Lugar', widget: 'string', hint: 'Indique el lugar o ciudad de nacimiento de este personaje'}
+      - {name: 'nacimiento', label: 'Nacimiento', widget: 'date', hint: 'indique la fecha de nacimiento del personaje'}
+      - {name: 'defuncion', label: 'Defunción', widget: 'date', hint: 'indique la fecha de defunción del personaje'}
+      - {name: 'ref_nombre', label: 'Nombre de la Referencia', widget: 'string', hint: 'indique el nombre del sitio donde obtuvo esta biografía'}
+      - {name: 'ref_url', label: 'URL de la Referencia', widget: 'string', hint: 'indique la URL del sitio donde obtuvo la biografía'}
+      - {name: 'resumen', label: 'Resumen', widget: 'string', hint: 'Un breve resumen con menos de 140 caracteres sobre lo que trata esta Publicación'}
+      - {name: 'orden', label: 'Orden', widget: 'number'}
+      - {name: 'tags', label: 'Etiquetas', widget: list}
+      - {name: 'body', label: 'Body', widget: 'markdown'}
   - name: 'historias'
     label: 'Historias'
     description: 'Edición e incorporación de historias en el sitio'
@@ -122,4 +85,49 @@ collections:
       - {name: 'resumen', label: 'Resumen', widget: 'string', hint: 'Un breve resumen con menos de 140 caracteres sobre lo que trata esta Publicación'}
       - {name: 'orden', label: 'Orden', widget: 'number'}
       - {name: 'tags', label: 'Etiquetas', widget: list}
+      - {name: 'body', label: 'Body', widget: 'markdown'}
+  - name: 'juegos'
+    label: 'Juegos'
+    description: 'Edición e incorporación de Juegos, Dinamicas y Actividades en el sitio'
+    identifier_field: titulo
+    folder: '_juegos'
+    create: true
+    fields: 
+      - {name: 'layout', label: 'Layout', widget: 'hidden', default: 'articulos'}
+      - {name: 'titulo', label: 'Titulo', widget: 'string'}
+      - {name: 'img', label: 'Imagen del Articulo', widget: 'image', hint: 'Imagen principal del articulo la misma que se muestra al lado derecho en la parte superior del mismo.'}
+      - {name: 'categoria', label: 'Categoria', widget: 'list', hint: 'Incorpore categorias que se asocien a este juego'}
+      - {name: 'unidad', label: 'Unidad', widget: 'string'}
+      - {name: 'area', label: 'Área', widget: 'string'}
+      - {name: 'lugar', label: 'Lugar', widget: 'string'}
+      - {name: 'duracion', label: 'Duración', widget: 'string'}
+      - {name: 'participantes', label: 'Participantes', widget: 'string'}
+      - {name: 'materiales', label: 'Materiales', widget: 'string'}
+      - {name: 'objetivos', label: 'Objetivos', widget: 'string'}
+      - {name: 'variaciones', label: 'Variaciones', widget: 'string'}
+      - {name: 'recomendaciones', label: 'Recomendaciones', widget: 'string'}
+      - {name: 'ref_nombre', label: 'Nombre de la Referencia', widget: 'string'}
+      - {name: 'ref_url', label: 'URL de la Referencia', widget: 'string'}
+      - {name: 'resumen', label: 'Resumen', widget: 'string'}
+      - {name: 'orden', label: 'Orden', widget: 'number'}
+      - {name: 'tags', label: 'Etiquetas', widget: list}
+      - {name: 'body', label: 'Body', widget: 'markdown'}
+  - name: 'libros'
+    label: 'Libros'
+    description: 'Edición e incorporación de libros en el sitio'
+    identifier_field: titulo
+    folder: '_libros'
+    create: true
+    fields: 
+      - {name: 'layout', label: 'Layout', widget: 'hidden', default: 'articulos'}
+      - {name: 'titulo', label: 'Titulo', widget: 'string'}
+      - {name: 'img', label: 'Imagen del Articulo', widget: 'image', hint: 'Imagen principal del articulo la misma que se muestra al lado derecho en la parte superior del mismo.'}
+      - {name: 'categoria', label: 'Categoria', widget: 'list', hint: 'Incorpore categorias que se asocien a este libro'}
+      - {name: 'autor', label: 'Autor', widget: 'string'}
+      - {name: 'publicado', label: 'Publicado', widget: 'string'}
+      - {name: 'editorial', label: 'Editorial', widget: 'string'}
+      - {name: 'resumen', label: 'Resumen', widget: 'string'}
+      - {name: 'pdf', label: 'PDF', widget: 'file'}
+      - {name: 'orden', label: 'Orden', widget: 'number'}
+      - {name: 'tags', label: 'Etiquetas', widget: list, hint: 'Incorpore Etiquetas que se asocien a este libro son utilizadas para relacionar el contenido'}
       - {name: 'body', label: 'Body', widget: 'markdown'}

@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Nudo Simple
 img: img/tecnicas/nudo_simple.jpg
-categoria: [Tecnicas, cabuyeria, nudos, nudos de tope]
+categoria: [cabuyeria, nudos, nudos de tope]
 ref_nombre: Estiti
 ref_url: http://www.estiti.com/viento/nudos/medio-nudo-malla-simple.html
 nudo1: img/tecnicas/nudo_simple1.jpg

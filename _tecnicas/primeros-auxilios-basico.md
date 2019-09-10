@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Reglas básicas de los Primeros Auxilios
 img: img/tecnicas/primeros_auxilios.png
-categoria: [Tecnicas, primeros auxilios, pionerismo]
+categoria: [primeros auxilios, pionerismo]
 ref_nombre: Técnica Scout
 ref_url: http://tecnicascout.wordpress.com/2009/08/25/reglas-bsicas-de-los-primeros-auxilios/
 resumen: Para aplicar nuestros conocimientos en primeros auxilios se hace necesario conocer algunas reglas básicas y elementales y con ello ayudarnos a no cometer errores...

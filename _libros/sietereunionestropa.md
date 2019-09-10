@@ -11,4 +11,5 @@ pdf: pdf/7reunionesTropa.pdf
 ref_nombre: Agrupación Nacional de Boys Scouts de Chile
 ref_url: http://www.boyscouts.cl/portal/index.php/descarga/category/7-literatura
 orden: 33
+tags: [libro, scouts, tropa]
 ---

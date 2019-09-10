@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Proyección de los Mapas
 img: img/tecnicas/map-projection.png
-categoria: [Tecnicas, pionerismo]
+categoria: [pionerismo, cartografia]
 resumen: cuando se trata de extensiones grandes como las de un país un continente o de todo el globo se requieren otros tipos de proyecciones que eviten al mínimo la distorsión
 orden: 42
 ---

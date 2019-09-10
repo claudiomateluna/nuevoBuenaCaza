@@ -14,6 +14,7 @@ variaciones:
 recomendaciones: Cree un ambiente estimulado, facilite el trabajo con narraciones y comentarios que estimulen la creatividad.
 resumen: juego de expresión creativa para toda edad que busca desarrolla la habilidad en la comunicación no verbal, Explora la creatividad y la fantasía
 orden: 21
+tags: [dinamicas, dinamicas de evaluacion]
 ---
 I. Se forman las parejas según la estrategia que más convenga al instructor (numerando, por conocidos, por afinidad, etc.).
 

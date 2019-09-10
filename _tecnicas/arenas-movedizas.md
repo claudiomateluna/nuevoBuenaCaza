@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Arenas Movedizas
 img: img/tecnicas/arenas.jpg
-categoria: [Tecnicas, pionerismo, supervivencia]
+categoria: [pionerismo, supervivencia]
 ref_nombre: Manual del explorador
 ref_url: http://www.manualscout.cl/ficha-001.htm
 resumen: Las arenas movedizas están constituidas por un conjunto de partículas muy pequeñas y dispersas en un medio líquido, tal como arena, fango, arcilla y agua salada.

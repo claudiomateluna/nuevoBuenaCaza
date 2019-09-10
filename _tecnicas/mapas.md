@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Los Mapas
 img: img/tecnicas/mapas.jpg
-categoria: [Tecnicas, pionerismo]
+categoria: [pionerismo, cartografia]
 resumen: un mapa no es sino la representacion casi exacta de una parte de un territorio dibujada sobre una hoja de papel
 orden: 41
 ---

@@ -2,7 +2,7 @@
 layout: articulos
 titulo: El arte de enseñar historia scout
 img: img/tecnicas/historiascout.jpg
-categoria: [Tecnicas, Historia]
+categoria: [Historia, relatos]
 ref_nombre: El weBlog de La Roca del Consejo
 ref_url: http://blog.larocadelconsejo.net/2015/03/el-joven-bp-o-el-arte-de-ensenar-historia-scout/
 resumen: les dejamos este manual sobre como es más fácil enseñar la historia del movimiento a la siguiente generación de Scouts.

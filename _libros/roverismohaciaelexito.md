@@ -11,4 +11,5 @@ pdf: pdf/RoverismoHaciaElExito.pdf
 ref_nombre: .
 ref_url: #
 orden: 8
+tags: [libro, rovers, baden-powell]
 ---

@@ -11,4 +11,5 @@ pdf: pdf/elfundador.pdf
 ref_nombre: Luigi Minichini Valero
 ref_url: https://www.facebook.com/luigimv
 orden: 17
+tags: [libro, fundadores, venezuela]
 ---

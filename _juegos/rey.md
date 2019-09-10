@@ -16,5 +16,6 @@ variaciones: Para dinamizar pueden haber varios reyes simultáneamente.
 recomendaciones: No restringa a los niños y estimule su participación, no se burle.
 resumen: juego de expresión creativa para niños entre los 6 y 11 años que busca desarrollar la creatividad y estimular la confianza
 orden: 6
+tags: [juegos, juegos creativos]
 ---
 <p>Un jugador es el “REY” que se desplaza a su gusto. Los demás le seguirán imitando sus movimientos. Cuando el director grita el nombre de otro jugador éste pasa a ser el “REY”.</p>

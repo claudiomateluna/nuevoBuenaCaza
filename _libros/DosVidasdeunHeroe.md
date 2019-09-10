@@ -11,4 +11,5 @@ pdf: pdf/DosVidasdeunHeroe.pdf
 ref_nombre: Scouts de Venezuela
 ref_url: http://www.scoutsvenezuela.org.ve/biblioteca/programa_jovenes/Dos%20Vidas%20de%20un%20Heroe.pdf
 orden: 26
+tags: [libro, baden-powell, biografias]
 ---

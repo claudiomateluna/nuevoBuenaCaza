@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Receta Bizcocho de limón
 img: img/tecnicas/bizcocho-limon.jpg
-categoria: [Tecnicas, cocina, recetas, reposteria]
+categoria: [cocina, recetas, reposteria]
 ref_nombre: ¿SABES QUÉ ES EL ESCULTISMO?
 ref_url: http://scoutsparatodos.wordpress.com/2014/03/02/receta-bizcocho-de-limon/
 resumen: La cocineria simple es un elemento fundamental para las actividades scouts, es por ello que aqui tambien incluiremos recetas de comidas que podemos hacer en campamento.

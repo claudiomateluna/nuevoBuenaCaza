@@ -11,4 +11,5 @@ pdf: pdf/ComoRealizarUnCorto.pdf
 ref_nombre: Scout.es
 ref_url: http://www.scout.es
 orden: 34
+tags: [libro, scouts, video, tecnicas]
 ---

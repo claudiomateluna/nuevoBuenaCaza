@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Cuerdas Dinamicas
 img: img/tecnicas/cuerdas_dinamicas.jpg
-categoria: [Tecnicas, cabuyeria, cuerdas, pionerismo]
+categoria: [cabuyeria, cuerdas, pionerismo]
 ref_nombre: El Wiki de La Roca del Consejo
 ref_url: http://wiki.larocadelconsejo.net/?title=Cuerdas_din%C3%A1micas
 resumen: las primeras cuerdas se fabricaban con fibras naturales (cáñamo así como seda en algún tiempo) compuestas de tres o cuatro hebras que se torcían...

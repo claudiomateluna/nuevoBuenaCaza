@@ -11,4 +11,5 @@ pdf: pdf/rematupropiacanoa.pdf
 ref_nombre: .
 ref_url: #
 orden: 9
+tags: [libro, rovers, baden-powell]
 ---

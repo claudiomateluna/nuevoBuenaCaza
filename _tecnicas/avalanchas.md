@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Avalanchas
 img: img/tecnicas/avalanchas.jpg
-categoria: [Tecnicas, pionerismo, supervivencia]
+categoria: [pionerismo, supervivencia]
 ref_nombre: Manual del Explorador
 ref_url: http://www.manualscout.cl/ficha-128.htm
 resumen: Lo importante es tener una cultura y principio básico de la seguridad en montaña, para ello en este artículo se entregan algunos consejos y conocimientos útiles, que pueden ser aplicados.

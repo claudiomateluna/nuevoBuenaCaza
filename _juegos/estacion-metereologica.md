@@ -14,6 +14,7 @@ materiales: Los especificados en el anexo técnico Instrumentos meteorológicos 
 objetivos: Confeccionar instrumentos meteorológicos sencillos, Confeccionar una estación meteorológica, Aprender a interpretar información meteorológica, Realizar pronósticos meteorológicos.
 resumen: Durante un campamento de Unidad, las patrullas montan una estación meteorológica con instrumentos fabricados por ellos mismos y estudian los fenómenos atmosféricos.
 orden: 39
+tags: [juegos, juegos de creatividad, juegos en equipo]
 ---
 **Material Preliminar**
 

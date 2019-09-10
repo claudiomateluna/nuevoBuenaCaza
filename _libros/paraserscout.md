@@ -11,4 +11,5 @@ pdf: pdf/ParaSerScout.pdf
 ref_nombre: Juan Cruz Moretti
 ref_url: https://www.facebook.com/Juan.Cruz.Moretti04
 orden: 6
+tags: [libro, escultismo, mexico]
 ---

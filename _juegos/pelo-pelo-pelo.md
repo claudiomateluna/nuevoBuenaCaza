@@ -16,5 +16,6 @@ variaciones: Variante por grupos, llamar de a uno al punto donde se encuentre qu
 recomendaciones: Utilícelo como actividad de refuerzo después de una salida al zoológico con la manada.
 resumen: juego de expresión social para niños desde los 5 años que busca Apoyar el conocimiento de los animales y sus características, Reforzar la concentración y el seguimiento de instrucciones, Apoyar la disciplina de cuerpo.
 orden: 16
+tags: [juegos, juegos de coordinacion, juegos de exterior]
 ---
 <p>Se colocan todos los participantes en una fila horizontal. El monitor se colocará a varios metros de ellos (estilo chocolate inglés), e irá diciendo animales u objetos que tengan o no pelo. Si dice el león todos darán un paso, si alguien no lo da, tendrá que retroceder hasta el final. Si por el contrario dice roca, como las rocas no tienen pelo, no habrá que moverse, si alguien lo hace, deberá retroceder hasta el final. El juego termina cuando alguien llega hasta el monitor. Depende de la edad de los participantes se puede ir acelerando el ritmo e incluso decir animales no usuales u objetos raros que les hagan pensar. Si son niños de 3-4 años, está bien que además de que den el paso si el animal tiene pelo, imiten su sonido o sus movimientos.</p>

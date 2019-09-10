@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Nudo
 img: img/tecnicas/nudo.jpg
-categoria: [Tecnicas, cabuyeria, cuerdas, pionerismo]
+categoria: [cabuyeria, cuerdas, pionerismo]
 ref_nombre: Wikipedia
 ref_url: http://es.wikipedia.org/wiki/Nudo_(lazo)
 resumen: es un orden y estructura particular en un tramo de cuerda o hilo el cual se estrecha y se cierra no siendo fácil que se deshaga por si solo.

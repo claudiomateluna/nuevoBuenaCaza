@@ -11,4 +11,5 @@ pdf: pdf/manualDeTecnicasParaScouts.pdf
 ref_nombre: Liz Miriam Andrade
 ref_url: https://www.facebook.com/lizmiriam.andrade
 orden: 19
+tags: [libro, Tecnicas]
 ---

@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Signos de Pista
 img: img/tecnicas/signospista.jpg
-categoria: [Tecnicas, criptografia, pionerismo]
+categoria: [criptografia, pionerismo]
 ref_nombre: Técnica Scout
 ref_url: http://tecnicascout.wordpress.com/2009/06/09/signos-de-pista/
 resumen: podemos decir que el rastreo es el arte de seguir las huellas o señales que una persona, animal o cosa en movimiento, va dejando en su camino.

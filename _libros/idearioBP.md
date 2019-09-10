@@ -11,4 +11,5 @@ pdf: pdf/ideario.pdf
 ref_nombre: Issuu
 ref_url: https://issuu.com/www.tumercader.com/docs/ideario_de_bp
 orden: 27
+tags: [libro, baden-powell, biografias]
 ---

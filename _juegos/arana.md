@@ -16,6 +16,7 @@ variaciones: Si se quiere hacer más competitivo, se puede agregar tiempo para q
 recomendaciones: Recalque la importancia de la seguridad y el cuidado del más grande con el más pequeño.
 resumen: juego de expresión corporal para niños desde los 12 años que busca desarrollar la coordinación y estimular el trabajo en equipo
 orden: 27
+tags: [juegos, juegos de desfogue de energía, juegos de coordinacion]
 ---
 El juego scout tradicional consiste en una competición entre dos grupos. cada grupo tendra 3 vidas por turno si pierden dichas vidas le toca al otro grupo.
 

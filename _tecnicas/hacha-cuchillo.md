@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Uso del Hacha y Cuchillo
 img: img/tecnicas/hacha.jpg
-categoria: [Tecnicas, campismo, pionerismo]
+categoria: [campismo, pionerismo]
 ref_nombre: Manual del Explorador
 ref_url: http://www.manualscout.cl/ficha-046.htm
 ficha1: img\tecnicas\fichas\ficha_tecnica1.png

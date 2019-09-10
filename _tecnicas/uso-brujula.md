@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Uso de la Brujula
 img: img/tecnicas/brujula-uso.jpg
-categoria: [Tecnicas, pionerismo, orientacion]
+categoria: [pionerismo, orientacion]
 ref_nombre: Guias y Scouts Weche Auka
 ref_url: http://wecheauka.es.tl/Orientacion-por-Br%FAjula.htm
 ficha1: img\tecnicas\fichas\ficha_brujula1.jpg

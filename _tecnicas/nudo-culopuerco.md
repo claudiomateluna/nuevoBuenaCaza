@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Nudo Culo de Puerco
 img: img/tecnicas/nudo_culopuerco.png
-categoria: [Tecnicas, cabuyeria, nudos, nudos de tope]
+categoria: [cabuyeria, nudos, nudos de tope]
 ref_nombre: Nudos, como hacerlos?
 ref_url: http://nudoscomohacerlos.blogspot.com/2009/11/culo-de-puerco.html
 nudo1: img/tecnicas/nudo_culopuerco1.jpg

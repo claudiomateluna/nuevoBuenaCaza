@@ -11,4 +11,5 @@ pdf: pdf/exploraryacampar.pdf
 ref_nombre: Gonzalo Acuña Google Docs
 ref_url: https://docs.google.com/a/supaginaweb.org/file/d/0B31NkCPnMd_WdVotTm1BQVJRcDJyNWZJNDBHbldWUQ/edit
 orden: 3
+tags: [libro, Tecnicas, campismo, pionerismo]
 ---

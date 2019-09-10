@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Papa Rellena a las brasas
 img: img/tecnicas/papasRellenas.png
-categoria: [Tecnicas, cocina, campismo, pionerismo]
+categoria: [cocina, campismo, pionerismo]
 ref_nombre: Travesía Scout
 ref_url: http://www.travesiascout.com/content/view/772431/Papa-Rellena.html#.Vr877PJ974Y
 resumen: Esta comida es facil de realizar durante un campamento al finalizar el dia en alguna fogata junto a nuestra unidad para compartir algunas historias de campamentos...

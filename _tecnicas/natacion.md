@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Estilos de natación
 img: img/tecnicas/natacion.jpg
-categoria: [Tecnicas, pionerismo, natacion]
+categoria: [pionerismo, natacion]
 ref_nombre: Técnica Scout
 ref_url: http://tecnicascout.wordpress.com/2009/09/09/estilos-de-natacin/
 resumen: Hay cinco estilos reconocidos que se han ido perfeccionando desde finales del siglo XIX, pero que en la actualidad se han reducido a sólo cuatro que tienen carácter oficial...

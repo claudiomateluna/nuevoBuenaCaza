@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Como plantar un arbol
 img: img/tecnicas/plantararbol.jpg
-categoria: [Tecnicas, naturaleza, pionerismo]
+categoria: [naturaleza, pionerismo]
 ref_nombre: Técnica Scout
 ref_url: http://tecnicascout.wordpress.com/2009/03/29/cmo-plantar-un-rbol/
 resumen: Antes de comenzar a plantar un árbol cerciórate de que no le faltará el agua. Para ello puedes instalar un sistema de riego por goteo con una simple manguera...

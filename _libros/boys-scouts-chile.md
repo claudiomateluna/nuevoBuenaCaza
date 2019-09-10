@@ -11,4 +11,5 @@ pdf: pdf/scoutsenchile.pdf
 ref_nombre: Memoria Chilena
 ref_url: http://www.memoriachilena.cl/602/w3-article-9364.html
 orden: 1
+tags: [libro, scouts de chile, chile]
 ---

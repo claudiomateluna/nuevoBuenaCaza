@@ -11,4 +11,5 @@ pdf: pdf/manualAstucias.pdf
 ref_nombre: Rincon Acrata
 ref_url: http://rincon-acrata.blogspot.cl/2010/12/construccion-pionerismo.html
 orden: 35
+tags: [libro, scouts, video]
 ---

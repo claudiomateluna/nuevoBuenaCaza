@@ -11,4 +11,5 @@ pdf: pdf/GuidismoEnChile.pdf
 ref_nombre: Travesía Scout
 ref_url: http://www.travesiascout.com/media/users/1/83786/files/24640/Guidismo_en_Chile.pdf
 orden: 22
+tags: [libro, guias, chile]
 ---

@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Vertigo
 img: img/tecnicas/vertigo.jpg
-categoria: [Tecnicas, Varios, primeros auxilios, enfermedades]
+categoria: [Varios, primeros auxilios, enfermedades]
 ref_nombre: Manual del explorador
 ref_url: http://www.manualscout.cl/ficha-115.htm
 resumen: Es una sensación de falta de estabilidad en el espacio, rotatoria, que suele ir acompañada de nauseas, vómitos, y falta de estabilidad para andar...

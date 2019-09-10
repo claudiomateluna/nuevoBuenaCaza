@@ -15,6 +15,7 @@ objetivos: Que los participantes logren presentarse unos a otros
 variaciones: Puede variar cambiando los nombres por caracteristicas personales, conocimientos, música, etc, para lograr un mejor conocimiento entre los integrantes del grupo.
 resumen: dinamica de presentación para toda edad que busca Que los participantes logren presentarse unos a otros
 orden: 15
+tags: [dinamicas, dinamicas_presentacion]
 ---
 El animador entrega a cada participante una ficha y les pide que anoten su nombre y la devuelven al animador. Luego se entrega un cartón en blanco en donde el animador invita a los presentes a anotar el nombre de sus compañeros, a medida que el animador los va leyendo, de las fichas entregadas por el grupo. Cada uno los anota en el espacio que desee.
 

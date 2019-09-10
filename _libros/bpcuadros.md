@@ -11,4 +11,5 @@ pdf: pdf/bpcuadros.pdf
 ref_nombre: Siempre Scout
 ref_url: http://www.siemprescout.org/
 orden: 12
+tags: [libro, biografias, baden-powell]
 ---

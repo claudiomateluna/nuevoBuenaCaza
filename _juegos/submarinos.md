@@ -16,6 +16,7 @@ variaciones: Para envestir al submarino contrario puede utilizar torpedos lanzan
 recomendaciones: Realse el hecho de que para que el equipo gane primero es necesario que confien unos en otros.
 resumen: juego de expresión social para jovenes desde los 11 años que busca desarrollar y estimular el trabajo en equipo y la integración del mismo.
 orden: 33
+tags: [juegos, juegos de integracion, juegos en equipo]
 ---
 Se forman equipos de ±6 equipos (o patrullas) los que deben tomarse de los hombros. Todos los integrantes del equipo deben estar "vendados" (sin ver) excepto el último.
 

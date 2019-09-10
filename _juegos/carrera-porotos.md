@@ -16,5 +16,6 @@ variaciones: Se puede variar según el terreno, hacerlo individual o por equipos
 recomendaciones: Permita a los participantes utilizar la imaginación en el desplazamiento del poroto
 resumen: juego de expresión corporal para niños desde los 8 años que busca desarrollar y estimular el trabajo en equipo y la integración del mismo.
 orden: 37
+tags: [juegos, juegos de integracion, juegos en equipo]
 ---
 Consiste, como su nombre lo dice en una carrera de los porotos, los que corren empujados por los participantes con un pequeño palito. A falta de porotos se pueden usar piedras chicas. Se puede variar según el terreno, hacerlo individual o por equipos...

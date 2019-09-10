@@ -11,4 +11,5 @@ pdf: pdf/ElGranJuego.pdf
 ref_nombre: Grupo Scout La Salle
 ref_url: http://www.gruposcoutlasalle.es/p/libros.html
 orden: 28
+tags: [libro, baden-powell, biografias]
 ---

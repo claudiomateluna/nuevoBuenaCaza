@@ -16,6 +16,7 @@ variaciones: Puede organizar un gran encuentro de Geocaching para Scouts, no es 
 recomendaciones: Procure evaluar correctamente la ruta y los caches que va a buscar sea realista con los primeros desafíos, inicie con las búsquedas más básicas, aproveche la oportunidad para conversar temas de su unidad y realzar otras técnicas mientras realiza la ruta, aproveche el tiempo de las caminatas.
 resumen: tendrás que buscar tesoros siguiendo coordenadas con un GPS. Puede ser una gran aventura para tus scouts.
 orden: 25
+tags: [juegos, juegos de exterior, raid, tecnologia]
 ---
 El geocaching es un juego mundial muy al estilo de James Bond o Indiana Jones, pues tendrás que buscar tesoros siguiendo coordenadas con un GPS (Global Position System). Puede ser una gran aventura para tus scouts.
 

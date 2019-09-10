@@ -11,4 +11,5 @@ pdf: pdf/manualScoutChile.pdf
 ref_nombre: Biblioteca del Congreso Nacional
 ref_url: https://www.bcn.cl/obtienearchivo?id=documentos/10221.1/53364/2/253945.pdf
 orden: 37
+tags: [libro, scouts, chile]
 ---

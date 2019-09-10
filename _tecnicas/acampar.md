@@ -2,11 +2,12 @@
 layout: articulos
 titulo: Acampar
 img: img/tecnicas/acampar.jpg
-categoria: [Tecnicas, pionerismo, campismo]
+categoria: [pionerismo, campismo]
 ref_nombre: Manual Explorar y Acampar
 ref_url: .
 resumen: En toda actividad de exploración es necesario contar con un campamento. El campamento es la base de operaciones que te permite desarrollar las actividades y cumplir los objetivos.
 orden: 43
+tags: [pionerismo, campismo]
 ---
 En toda actividad de exploración es necesario contar con un campamento, sinónimo de calor, comida, protección y amistad. El campamento es la base de operaciones que te permite desarrollar desde él muchas y variadas actividades en concordancia con tus objetivos.
 

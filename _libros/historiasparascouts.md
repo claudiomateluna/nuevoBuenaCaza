@@ -11,4 +11,5 @@ pdf: pdf/historiasparascouts.pdf
 ref_nombre: .
 ref_url: #
 orden: 11
+tags: [libro, reflexiones, baden-powell]
 ---

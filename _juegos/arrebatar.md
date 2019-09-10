@@ -16,5 +16,6 @@ variaciones: Puede utilizar sillas u otro elemento para marcar la posición inic
 recomendaciones: Ponga especial atención en los mas pequeños e incetivelos.
 resumen: juego para toda edad que busca el Desfogue de energías para ayudar a la motricidad y coordinación.
 orden: 2
+tags: [juegos, juegos de desfogue de energía]
 ---
 <p>Se colocan en el centro de un círculo trazado con gis (tiza) en el piso, tantos pedazos de cuerda u otras cosas por el estilo, que se tengan a mano, como jugadores toman parte menos uno. Los jugadores formados fuera del círculo, obedecen órdenes de mando tales como "media vuelta". "paso veloz", etc... A la voz "arrebaten", cada uno trata de posesionarse de uno de los objetos que están en el interior del círculo, perdiendo el que no lo logra.</p>

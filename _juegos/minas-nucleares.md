@@ -16,6 +16,7 @@ variaciones: Si se ambienta el juego (por ejemplo, tribus indias) se convierte e
 recomendaciones: El arbitro del juego debe ser justo y observador para evitar conflictos entre los equipos que distraigan a los muchach@s de su objetivo.
 resumen: Juego de expresión creativa para niños y jovenes entre 10 y 16 años que busca desarrollar el espíritu de cuerpo y la creatividad para lograr el objetivo
 orden: 11
+tags: [juegos, grandes juegos, juego nocturno]
 ---
 <p>Es un juego de acecho, en cual cada equipo debe crear su propia estrategia, atacando, a o los equipos y capturando enemigos, es por esto que cuando hay muchos se pueden crear alianzas. La finalidad del juego es el que primero hace estallar la base del enemigo, cuando son mas de 2 equipos, el ultimo que queda con su base sin estallar, gana.El juego debe realizarse en un espacio verde, amplio y de noche ( Ej. Camping ). En si el espacio debe considerarse según la cantidad de equipos. Generalmente el juego dura 45 minutos(según la cantidad participantes), llega a durar hasta 2 1/2 horas.Para que el juego sea justo, por cada equipo debe haber un arbitro (observador) y un arbitro central que es el que controla el juego, Para que cada equipo realice correctamente el sector, y no se esconda, dentro de su sector esperando a un participante contrario.</p>
 <p>Reglas:</p>

@@ -16,6 +16,7 @@ variaciones: Para añadir dificultad aumente el número de ladrones en relación
 recomendaciones: Se recomienda entregar un tiempo maximo al equipo de policias, Recalque la importancia de la lealtad como principio del movimiento, así como el ser digno de confianza.
 resumen: juego de expresión social y corporal para niños desde los 8 años que busca desarrollar y estimular el trabajo en equipo y el desgaste de energias.
 orden: 31
+tags: [juegos, juegos de desfogue de energía, juegos en equipo]
 ---
 En un terreno de juego amplio y relativamente llano un grupo proporcional al número de los juegan, hace de policías, y los demás de ladrones. Los policías llevarán algún distintivo como una gorra, un pañuelo en el brazo, etc.
 

@@ -11,4 +11,5 @@ pdf: pdf/misaventurascomoespia.pdf
 ref_nombre: .
 ref_url: #
 orden: 10
+tags: [libro, baden-powell, relatos]
 ---

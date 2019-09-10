@@ -11,4 +11,5 @@ pdf: pdf/manualsupervivencia.pdf
 ref_nombre: Scribd
 ref_url: https://es.scribd.com/doc/214198753/Manual-Completo-de-Supervivencia-Hugh-McManners
 orden: 4
+tags: [libro, Tecnicas, pionerismo]
 ---

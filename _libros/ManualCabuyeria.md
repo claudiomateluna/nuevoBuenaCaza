@@ -11,4 +11,5 @@ pdf: pdf/ManualCabuyeria.pdf
 ref_nombre: ASDE
 ref_url: https://scout.es/nueva-publicacion-manual-basico-de-cabuyeria/
 orden: 31
+tags: [libro, tecnicas, construcciones, campismo]
 ---

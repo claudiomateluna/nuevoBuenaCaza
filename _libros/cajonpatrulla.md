@@ -11,4 +11,5 @@ pdf: pdf/cajonpatrulla.pdf
 ref_nombre: Issuu
 ref_url: http://issuu.com/dparis/docs/cajon-de-patrulla
 orden: 20
+tags: [libro, tecnicas, venezuela]
 ---

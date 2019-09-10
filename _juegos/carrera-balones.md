@@ -16,6 +16,7 @@ variaciones: Puede Agregar más balones a medida que vaya pasando el tiempo para
 recomendaciones: Felicitelos en cada pase bien hecho, estimule la actividad.
 resumen: juego de expresión corporal para niños entre 6 y 11 años que busca Estimular el trabajo en equipo, desarrollar la motricidad y la cordinación
 orden: 7
+tags: [juegos, trabajo_equipo, habilidad]
 ---
 Se colocan todos los jugadores formando un círculo a cierta distancia uno de otro.
 

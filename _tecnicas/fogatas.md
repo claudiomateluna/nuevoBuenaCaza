@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Tipos y usos de las Fogatas
 img: img/tecnicas/fogatas.jpg
-categoria: [Tecnicas, campismo, pionerismo, fuego]
+categoria: [campismo, pionerismo, fuego]
 ref_nombre: Grupo 24 / Scouts de Mexico
 ref_url: http://grupo24scoutsdf.jimdo.com/2013/10/18/tipos-y-usos-de-las-fogatas/
 ficha1: img\tecnicas\fichas\ficha_fogatas.jpg

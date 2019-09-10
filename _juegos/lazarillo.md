@@ -16,6 +16,7 @@ variaciones: Los lazarillos escogen a su pareja cuando esta tiene los ojos venda
 recomendaciones: Procure destacar que la actividad es una actividad de confianza y que la misma es difícil de conquistar y recuperar.
 resumen: juego de expresión social para toda edad que busca estimular la confianza en los pares
 orden: 12
+tags: [juegos, juegos de confianza]
 ---
 <p>Los jugadores se distribuyen por parejas. Uno de ellos cierra los ojos. El otro será su lazarillo.</p>
 <p>El lazarillo extiende su mano con la palma hacia arriba mientras que su compañero apoya su mano palma contra palma.</p>

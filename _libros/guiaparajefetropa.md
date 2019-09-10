@@ -11,4 +11,5 @@ pdf: pdf/guiaparajefetropa.pdf
 ref_nombre: Siempre Scout
 ref_url: http://www.siemprescout.org/
 orden: 15
+tags: [libro, scouts, baden-powell]
 ---

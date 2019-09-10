@@ -16,6 +16,7 @@ variaciones: Si se quiere hacer competitivo, se puede eliminar a la pareja que a
 recomendaciones: Recalque la importancia de la seguridad y el cuidado del más grande con el más pequeño.
 resumen: juego de expresión corporal para niños desde los 7 años que busca desarrollar la coordinación y estimular el trabajo en equipo
 orden: 17
+tags: [juegos, juegos de desfogue de energía, juegos de coordinacion]
 ---
 Todos jugadores se agrupan por parejas. Se forman 2 círculos concéntricos (uno dentro de otro).
 

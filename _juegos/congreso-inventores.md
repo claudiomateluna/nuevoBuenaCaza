@@ -16,6 +16,7 @@ variaciones: Se puede variar según el terreno, hacerlo individual o por equipos
 recomendaciones: Permita a los participantes utilizar la imaginación estimule las nuevas ideas.
 resumen: Cada patrulla diseñará y confeccionará un elemento que mejore la vida en campamento. Luego de probarlos y utilizarlos “en terreno”, estos pasarán a formar parte de los implementos de patrulla o de Unidad.
 orden: 38
+tags: [juegos, juegos de creatividad, juegos en equipo]
 ---
 Cada patrulla diseñará y confeccionará un elemento que mejore la vida en campamento. Luego de probarlos y utilizarlos “en terreno”, estos pasarán a formar parte de los implementos de patrulla o de Unidad.
 

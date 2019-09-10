@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Cabuyeria
 img: img/tecnicas/cabuyeria.jpg
-categoria: [Tecnicas, cabuyeria, cuerdas, pionerismo]
+categoria: [cabuyeria, cuerdas, pionerismo]
 ref_nombre: El Wiki de La Roca del Consejo
 ref_url: http://wiki.larocadelconsejo.net/index.php?title=Cabuyer%C3%ADa
 resumen: La cabuyería es la disciplina o saber que estudia el arte de hacer nudos, sus clases y sus distintas aplicaciones.

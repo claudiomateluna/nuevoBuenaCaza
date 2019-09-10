@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Virus Hanta
 img: img/tecnicas/hanta.jpg
-categoria: [Tecnicas, primeros auxilios, enfermedades]
+categoria: [primeros auxilios, enfermedades]
 ref_nombre: Manual del explorador
 ref_url: http://www.manualscout.cl/ficha-095.htm
 resumen: es una enfermedad infecciosa aguda, habitualmente grave, que puede ser mortal. Se caracteriza por...

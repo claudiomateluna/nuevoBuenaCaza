@@ -16,6 +16,7 @@ variaciones: Puede mesclar las columnas para que formen cada cierta distancia y 
 recomendaciones: Procure un espacio seguro para evitar caidas y accidentes.
 resumen: juego de expresión corporal para jovenes desde los 11 años que busca desarrollar y estimular el trabajo en equipo y la integración del mismo.
 orden: 34
+tags: [juegos, juegos de integracion, juegos en equipo]
 ---
 Los equipos se formarán en columnas detrás de una línea. El primero de la columna llevará sobre sus espaldas al segundo. Al llegar a una cierta distancia el que va de carga regresara para transportar al tercero y así sucesivamente hasta que pase todo el equipo.
 

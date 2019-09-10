@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Instrumentos Metereológicos
 img: img/tecnicas/meteoro.jpg
-categoria: [Tecnicas, pionerismo]
+categoria: [pionerismo, metereologia]
 resumen: La meteorología es una parte de la física que estudia los fenómenos atmosféricos. Los factores físicos esenciales para el estudio de la atmósfera son temperatura, presión, humedad relativa, radiación solar y cargas eléctricas.
 orden: 44
 ---

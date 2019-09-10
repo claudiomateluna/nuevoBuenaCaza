@@ -11,4 +11,5 @@ pdf: pdf/scoutsmarinos.pdf
 ref_nombre: scribd
 ref_url: https://es.scribd.com/doc/241714569/Manual-para-SCOUT-MARINOS-pdf
 orden: 2
+tags: [libro, scouts marinos]
 ---

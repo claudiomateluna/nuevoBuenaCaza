@@ -11,4 +11,5 @@ pdf: pdf/LoQuePuedenHacerLosScouts.pdf
 ref_nombre: Juan José Pérez Martínez
 ref_url: https://issuu.com/juanjoseperezmartinez/docs/lo_que_pueden_hacer_los_scouts-_rev
 orden: 25
+tags: [libro, sistema de patrullas, baden-powell]
 ---

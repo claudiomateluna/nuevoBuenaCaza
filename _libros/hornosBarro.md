@@ -11,4 +11,5 @@ pdf: pdf/hornosBarro.pdf
 ref_nombre: Issuu
 ref_url: https://issuu.com/grupo.scout.nomadas.wfis.spain/docs/como-hacer-hornos-de-barro
 orden: 29
+tags: [libro, cocina, tecnicas]
 ---

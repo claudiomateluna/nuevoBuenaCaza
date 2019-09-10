@@ -2,11 +2,12 @@
 layout: articulos
 titulo: Acecho
 img: img/tecnicas/acecho.jpg
-categoria: [Tecnicas, pionerismo, acecho]
+categoria: [pionerismo, acecho]
 ref_nombre: Manual del explorador
 ref_url: http://www.manualscout.cl/ficha-064.htm
 resumen: acecho y camuflaje la capacidad de observación y conocimiento previo del terreno, así como la mimetización, pueden ser claves en la practica del acecho.
 orden: 4
+tags: [pionerismo, acecho]
 ---
 Algunos puntos a tener en cuenta para practicar acecho y camuflaje:
 

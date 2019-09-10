@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Pronósticos Metereológicos
 img: img/tecnicas/pro_meteoro.jpg
-categoria: [Tecnicas, pionerismo, campismo]
+categoria: [pionerismo, campismo, metereologia]
 ref_nombre: Movimiento Scout del Uruguay
 ref_url: http://msu.website/descargas/Creatividad%20Scouts.pdf
 resumen: El propósito es entregar la información que permita recoger y consignar datos metereológicos, para hacer un adecuado pronóstico del tiempo.

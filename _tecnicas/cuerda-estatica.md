@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Cuerdas Estaticas
 img: img/tecnicas/cuerda_estatica.jpg
-categoria: [Tecnicas, cabuyeria, cuerdas, pionerismo]
+categoria: [cabuyeria, cuerdas, pionerismo]
 ref_nombre: Wiki la Roca del Consejo
 ref_url: http://wiki.larocadelconsejo.net/index.php?title=Cuerdas_est%C3%A1ticas
 resumen: Son aquellas en que su longitud original al tensarla casi no varia pues como máximo sólo se elastece aproximadamente un 2% bajo cargas normales de trabajo.

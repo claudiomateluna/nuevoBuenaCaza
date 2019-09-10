@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Medio Nudo con Gaza
 img: img/tecnicas/nudo_congaza.jpg
-categoria: [Tecnicas, cabuyeria, nudos, nudos de tope]
+categoria: [cabuyeria, nudos, nudos de tope]
 ref_nombre: Nudos, como hacerlos?
 ref_url: http://nudoscomohacerlos.blogspot.com/2009/11/medio-nudo-con-gaza.html
 nudo1: img/tecnicas/nudo_congaza2.png

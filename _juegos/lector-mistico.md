@@ -16,6 +16,7 @@ variaciones: Un disfraz adecuado para el Lector Misterioso, ayudará a crear amb
 recomendaciones: Estimule la participación y cree distracciones constantes.
 resumen: juego de expresión creativa para niños entre 6 y 11 años que busca Estimular la capacidad de observación y el trabajo en equipo
 orden: 8
+tags: [juegos, juegos creativos, juegos broma, juegos de interior]
 ---
 <p>Distribuir a los jugadores en círculo o semicírculo.Dar a cada jugador un trozo de papel, todos del mismo tamaño y forma que el resto.</p>
 <p>Pedir todos los jugadores que escriban una frase corta de 4 o 5 palabras. Las palabras se tienen que escribir claramente, y no se pueden enseñar a ningún otro jugador.</p>

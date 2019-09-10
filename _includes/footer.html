@@ -98,6 +98,198 @@
 			{% endif %}
 		{% endfor %}
 		</div>
+		{% elsif page.url contains 'libros' %}
+		<h4>Quizás también te guste</h4>
+		<div class="relatedPosts">
+		{% assign maxRelated = 4 %}
+		{% assign minCommonTags =  1 %}
+		{% assign maxRelatedCounter = 0 %}
+		{% for libros in site.libros %}
+			{% assign sameTagCount = 0 %}
+			{% assign commonTags = '' %}
+			{% for tag in libros.tags %}
+				{% if libros.url != page.url %}
+					{% if page.tags contains tag %}
+						{% assign sameTagCount = sameTagCount | plus: 1 %}
+						{% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
+						{% assign commonTags = commonTags | append: tagmarkup %}
+					{% endif %}
+				{% endif %}
+			{% endfor %}
+			{% if sameTagCount >= minCommonTags %}
+				<div class="col col-12 sm-col-12 md-col-6 lg-col-6">
+					<div class="list-reset ml1">
+						<div class="p1 flex justify-start items-center">
+							<div class="ListaArtImg">
+								<amp-img src="{{ site.baseurl }}/{{ libros.img }}" alt="{{ libros.title }}" width="320" height="300" layout="responsive" class="circle"></amp-img>
+							</div>
+							<div class="z2">
+								<div class="ListaArtTit">
+									<h5>
+									<a href="{{ site.baseurl }}{{ libros.url }}">{{ libros.titulo }}</a>
+									</h5>
+								</div>
+								<div class="ListaArtP overflow-hidden p1">
+									<p>{{ libros.resumen | strip_html | truncatewords: 38 }}</p>
+								</div>
+								<div class="ListaMas">
+									<a href="{{ site.baseurl }}{{ libros.url }}">Quiero más información</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				{% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+				{% if maxRelatedCounter >= maxRelated %}
+					{% break %}
+				{% endif %}
+			{% endif %}
+		{% endfor %}
+		</div>
+		{% elsif page.url contains 'juegos' %}
+		<h4>Quizás también te guste</h4>
+		<div class="relatedPosts">
+		{% assign maxRelated = 4 %}
+		{% assign minCommonTags =  2 %}
+		{% assign maxRelatedCounter = 0 %}
+		{% for juegos in site.juegos %}
+			{% assign sameTagCount = 0 %}
+			{% assign commonTags = '' %}
+			{% for tag in juegos.tags %}
+				{% if juegos.url != page.url %}
+					{% if page.tags contains tag %}
+						{% assign sameTagCount = sameTagCount | plus: 1 %}
+						{% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
+						{% assign commonTags = commonTags | append: tagmarkup %}
+					{% endif %}
+				{% endif %}
+			{% endfor %}
+			{% if sameTagCount >= minCommonTags %}
+				<div class="col col-12 sm-col-12 md-col-6 lg-col-6">
+					<div class="list-reset ml1">
+						<div class="p1 flex justify-start items-center">
+							<div class="ListaArtImg">
+								<amp-img src="{{ site.baseurl }}/{{ juegos.img }}" alt="{{ juegos.title }}" width="320" height="300" layout="responsive" class="circle"></amp-img>
+							</div>
+							<div class="z2">
+								<div class="ListaArtTit">
+									<h5>
+									<a href="{{ site.baseurl }}{{ juegos.url }}">{{ juegos.titulo }}</a>
+									</h5>
+								</div>
+								<div class="ListaArtP overflow-hidden p1">
+									<p>{{ juegos.resumen | strip_html | truncatewords: 38 }}</p>
+								</div>
+								<div class="ListaMas">
+									<a href="{{ site.baseurl }}{{ libros.url }}">Quiero más información</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				{% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+				{% if maxRelatedCounter >= maxRelated %}
+					{% break %}
+				{% endif %}
+			{% endif %}
+		{% endfor %}
+		</div>
+		{% elsif page.url contains 'tecnicas' %}
+		<h4>Quizás también te guste</h4>
+		<div class="relatedPosts">
+		{% assign maxRelated = 4 %}
+		{% assign minCommonTags =  1 %}
+		{% assign maxRelatedCounter = 0 %}
+		{% for tecnicas in site.tecnicas %}
+			{% assign sameTagCount = 0 %}
+			{% assign commonTags = '' %}
+			{% for categoria in tecnicas.categoria %}
+				{% if tecnicas.url != page.url %}
+					{% if page.categoria contains categoria %}
+						{% assign sameTagCount = sameTagCount | plus: 1 %}
+						{% capture tagmarkup %} <span class="label label-default">{{ categoria }}</span> {% endcapture %}
+						{% assign commonTags = commonTags | append: tagmarkup %}
+					{% endif %}
+				{% endif %}
+			{% endfor %}
+			{% if sameTagCount >= minCommonTags %}
+				<div class="col col-12 sm-col-12 md-col-6 lg-col-6">
+					<div class="list-reset ml1">
+						<div class="p1 flex justify-start items-center">
+							<div class="ListaArtImg">
+								<amp-img src="{{ site.baseurl }}/{{ tecnicas.img }}" alt="{{ tecnicas.title }}" width="320" height="300" layout="responsive" class="circle"></amp-img>
+							</div>
+							<div class="z2">
+								<div class="ListaArtTit">
+									<h5>
+									<a href="{{ site.baseurl }}{{ tecnicas.url }}">{{ tecnicas.titulo }}</a>
+									</h5>
+								</div>
+								<div class="ListaArtP overflow-hidden p1">
+									<p>{{ tecnicas.resumen | strip_html | truncatewords: 38 }}</p>
+								</div>
+								<div class="ListaMas">
+									<a href="{{ site.baseurl }}{{ tecnicas.url }}">Quiero más información</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				{% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+				{% if maxRelatedCounter >= maxRelated %}
+					{% break %}
+				{% endif %}
+			{% endif %}
+		{% endfor %}
+		</div>
+		{% elsif page.url contains 'varios' %}
+		<h4>Quizás también te guste</h4>
+		<div class="relatedPosts">
+		{% assign maxRelated = 4 %}
+		{% assign minCommonTags =  2 %}
+		{% assign maxRelatedCounter = 0 %}
+		{% for varios in site.varios %}
+			{% assign sameTagCount = 0 %}
+			{% assign commonTags = '' %}
+			{% for categoria in varios.categoria %}
+				{% if varios.url != page.url %}
+					{% if page.categoria contains categoria %}
+						{% assign sameTagCount = sameTagCount | plus: 1 %}
+						{% capture tagmarkup %} <span class="label label-default">{{ categoria }}</span> {% endcapture %}
+						{% assign commonTags = commonTags | append: tagmarkup %}
+					{% endif %}
+				{% endif %}
+			{% endfor %}
+			{% if sameTagCount >= minCommonTags %}
+				<div class="col col-12 sm-col-12 md-col-6 lg-col-6">
+					<div class="list-reset ml1">
+						<div class="p1 flex justify-start items-center">
+							<div class="ListaArtImg">
+								<amp-img src="{{ site.baseurl }}/{{ varios.img }}" alt="{{ varios.title }}" width="320" height="300" layout="responsive" class="circle"></amp-img>
+							</div>
+							<div class="z2">
+								<div class="ListaArtTit">
+									<h5>
+									<a href="{{ site.baseurl }}{{ varios.url }}">{{ varios.titulo }}</a>
+									</h5>
+								</div>
+								<div class="ListaArtP overflow-hidden p1">
+									<p>{{ varios.resumen | strip_html | truncatewords: 38 }}</p>
+								</div>
+								<div class="ListaMas">
+									<a href="{{ site.baseurl }}{{ varios.url }}">Quiero más información</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				{% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+				{% if maxRelatedCounter >= maxRelated %}
+					{% break %}
+				{% endif %}
+			{% endif %}
+		{% endfor %}
+		</div>
 		{% else %}
 	{% endif %}
 	<div class="pt2 center">

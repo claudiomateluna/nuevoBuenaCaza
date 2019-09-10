@@ -16,6 +16,7 @@ variaciones: Las variables son tantas como imaginación se tenga pero algunas de
 recomendaciones: Procure destacar la importancia de la lealtad como valor en el vida.
 resumen: juego para toda edad que busca Estimular el contacto físico y el desarrollo de la observación como habilidad y la rapidez mental.
 orden: 23
+tags: [juegos, juegos de habilidad, juegos de desfogue de energia]
 ---
 El jugador se pone su pañolín (pañoleta) en su espalda afirmado con el pantalón, como si de una "cola" se tratase.
 

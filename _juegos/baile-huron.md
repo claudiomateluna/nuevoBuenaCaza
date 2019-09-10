@@ -16,6 +16,7 @@ variaciones: Puede aumentar la cantidad de globos por participantes, o colocarlo
 recomendaciones: Tomar precauciones con los más pequeños, ya que en la rapidez de la actividad pueden salir lastimados.
 resumen: juego para niños y jovenes desde los 9 años que busca Diversión y estimulo de la corporalidad
 orden: 9
+tags: [juegos, juegos de desfogue de energia, juegos de habilidad]
 ---
 Dividir al grupo en 2 equipos; dar a cada equipo sus cintas. Dibujar un gran círculo en el suelo, y hacer que entre 5 y 10 jugadores entren en el círculo. Atar un globo a los tobillos de todos los jugadores. El objetivo del juego es romper el globo del contrario mientras que se intenta evitar que exploten el propio. Una vez que han explitado el globo propio, se tiene que dejar el círculo para unirse al público.
 

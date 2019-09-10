@@ -16,6 +16,7 @@ variaciones: en lugar de cubrir los objetos, puede cubrir los ojos de los partic
 recomendaciones: Procure criterio al colocar los objetos, póngase en el lugar de los participantes y no abuse de ellos, no obligue a la participación esto es un juego, no debe perder el norte de esto.
 resumen: juego de expresión creativa para toda edad que busca estimular el desarrollo de los sentidos en los participantes, entrenando y fortaleciendo los sentidos.
 orden: 19
+tags: [juegos, juegos de kim, juegos de habilidad, juegos tecnicos]
 ---
 El director de juego prepara una mesa, o un espacio delimitado, con pequeños cuencos, o sacados, que han sido llenando con cosas asquerosas al tacto (ejemplos: huevo, gelatina, pulpa de fruta, puré de patatas, una esponja mojada, papilla de bebé, yogurt, sirope...). La mesa, o espacio delimitado, estarán tapados por un trapo grande capas de cubrir cada uno de los espacios.
 

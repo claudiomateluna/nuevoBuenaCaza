@@ -16,6 +16,7 @@ variaciones: Usad la plataforma giratoria de un fonógrafo. Los artículos se di
 recomendaciones: Se debe tener claro que esta no es una actividad que estimule la participación colaborativa sino más bien la competencia individual de cada participante y nos permite evaluar su capacidad de observación inicial y estimularla al mismo tiempo.
 resumen: juego de expresión creativa para toda edad que busca estimular el desarrollo de los sentidos en los participantes, entrenando y practicando el arte de la observación.
 orden: 24
+tags: [juegos, juegos de kim, adiestramiento de los sentidos]
 ---
 <p>Con la ayuda de un espejo grande, reflejad los veinticuatro objetos del Juego de Kim, poniendo cuidado de que el observador solamente pueda ver los objetos a través del espejo: lo mejor es colocar el espejo en un rincón, colgado de la pared a un ángulo de 45º.</p>
 

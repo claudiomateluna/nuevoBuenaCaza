@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Nudo de Estacha
 img: img/tecnicas/nudo_estacha.jpg
-categoria: [Tecnicas, cabuyeria, nudos, nudos de tope]
+categoria: [cabuyeria, nudos, nudos de tope]
 ref_nombre: Nudos, como hacerlos?
 ref_url: http://nudoscomohacerlos.blogspot.com/2009/11/nudo-de-estacha-tope-franciscano-o-guia.html
 nudo1: img/tecnicas/nudo_estacha1.png

@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Tipos de Cuerda
 img: img/tecnicas/tiposcuerdas.jpg
-categoria: [Tecnicas, cabuyeria, pionerismo]
+categoria: [cabuyeria, pionerismo]
 ref_nombre: Wiki la Roca del Consejo
 ref_url: http://wiki.larocadelconsejo.net/?title=Tipos_de_cuerda
 resumen: Las cuerdas pueden ser calificadas de diferentes formas, según su material, su uso, su trabajo, etc...

@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Cómo construir un vivac e instalar un toldo
 img: img/tecnicas/vivac.png
-categoria: [Tecnicas, pionerismo, campismo, sobrevivencia]
+categoria: [pionerismo, campismo, sobrevivencia]
 ref_nombre: Técnica Scout
 ref_url: http://tecnicascout.wordpress.com/2009/07/28/cmo-construir-un-vivac-e-instalar-un-toldo/
 resumen: la construcción de un vivac nunca debe ser motivo para la destrucción de la vegetación del lugar. Utilizaremos materiales que encontremos esparcidos por el terreno...

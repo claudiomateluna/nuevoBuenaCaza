@@ -16,6 +16,7 @@ variaciones: No deje que los equipos de trabajo miren la torre del otro equipo.
 recomendaciones: intente realzar cada punto de vista que se entrega al momento en que se decide la torre ganadora, realce el hecho que todo Scout cuida las cosas porque valora el trabajo.
 resumen: juego de expresión social para jovenes desde los 11 años que busca desarrollar y estimular el trabajo en equipo y la integración del mismo.
 orden: 32
+tags: [juegos, juegos de integracion, juegos en equipo]
 ---
 Este juego sirve de integración para equipos recién formados.
 

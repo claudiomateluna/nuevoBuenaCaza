@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Mal de Alturas
 img: img/tecnicas/altura.jpg
-categoria: [Tecnicas, primeros auxilios, pionerismo]
+categoria: [primeros auxilios, pionerismo]
 resumen: Cada año miles de personas van a las montañas a caminar cargando sus morrales o mochilas, a esquiar, a escalarlas y a hacer otras actividades.
 orden: 1
 ---

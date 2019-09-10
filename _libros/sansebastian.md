@@ -11,4 +11,5 @@ pdf: pdf/sansebastian.pdf
 ref_nombre: Luigi Minichini Valero
 ref_url: https://www.facebook.com/luigimv
 orden: 18
+tags: [libro, inicios, venezuela]
 ---

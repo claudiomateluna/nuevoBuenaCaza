@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Construcciones Scout
 img: img/libros/construccionesscout.jpg
-categoria: [Libros, libro, campismo]
+categoria: [Libros, libro, campismo, tecnicas, construcciones]
 autor: Anonimo
 publicado: 2015
 editorial: Desconocida
@@ -11,4 +11,5 @@ pdf: pdf/construccionesscout.pdf
 ref_nombre: Juan Cruz Moretti
 ref_url: https://www.facebook.com/Juan.Cruz.Moretti04
 orden: 7
+tags: [libro, campismo, tecnicas, construcciones]
 ---

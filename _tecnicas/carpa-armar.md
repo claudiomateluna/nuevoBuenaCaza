@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Armar y desarmar carpas
 img: img/tecnicas/carpa_armar.jpg
-categoria: [Tecnicas, campismo]
+categoria: [campismo, pionerismo]
 ref_nombre: Técnica Scout
 ref_url: https://tecnicascout.wordpress.com/2009/07/14/armar-y-desarmar-carpas/
 resumen: El armado de una carpa es una de las principales tareas para un Scout cuando va de acampada, puesto que en ella descanzara su cuerpo durante las noches y un buen armado sera el principal responsable de un descanso reparador

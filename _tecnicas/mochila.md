@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Armar la mochila y listas de campamento.
 img: img/tecnicas/mochila.jpg
-categoria: [Tecnicas, campismo, pionerismo]
+categoria: [campismo, pionerismo]
 ref_nombre: Técnica Scout
 ref_url: https://tecnicascout.wordpress.com/2009/07/21/armar-una-mochila-y-listas-de-ropa-para-llevar-a-campamento/
 resumen: Antes de empezar a empacar, revisa la lista de objetos que debes llevar, tanto tuyos como de tu patrulla. El saco de dormir...

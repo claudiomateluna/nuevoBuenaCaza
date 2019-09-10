@@ -2,7 +2,7 @@
 layout: articulos
 titulo: Organización de un Campamento
 img: img/tecnicas/organizar-campamento.jpg
-categoria: [Tecnicas, campismo, pionerismo]
+categoria: [campismo, pionerismo]
 ref_nombre: Técnica Scout
 ref_url: https://tecnicascout.wordpress.com/2009/03/29/organizacin-de-un-campamento/
 resumen: La actividad más importante que realizan los scouts es sin lugar a dudas el ir a acampar a la naturaleza, y para realizar un campamento inolvidable si no sabes como organizarlo puedes aprender aca...

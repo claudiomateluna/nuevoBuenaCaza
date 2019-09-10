@@ -11,4 +11,5 @@ pdf: pdf/pionerismoCampamento.pdf
 ref_nombre: Rincon Acrata
 ref_url: http://rincon-acrata.blogspot.cl/2010/12/construccion-pionerismo.html
 orden: 36
+tags: [libro, scouts, pionerismo, tecnicas]
 ---
