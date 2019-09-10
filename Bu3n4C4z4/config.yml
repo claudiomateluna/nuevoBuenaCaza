@@ -3,7 +3,7 @@ backend:
   repo: claudiomateluna/nuevoBuenaCaza
 
 media_folder: 'img/uploads'
-media_folder: 'pdf/uploads'
+public_folder: 'pdf/uploads'
 
 collections:
   - name: 'configuracion-basica'
