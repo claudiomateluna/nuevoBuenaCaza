@@ -11,6 +11,7 @@ ref_nombre: Manual del explorador
 ref_url: http://manualscout.cl/ficha-016.htm
 resumen: compartiendo una taza de té con Baden-Powell, se entusiasma a tal punto que toma la resolución de fundar en Francia la Fédération Catholique du Scoutisme.
 orden: 12
+tags: [scouts, francia, fundadores]
 ---
 Nacido en Lille el 7 de diciembre de 1882, Jacques Sevin fue el primero en su clase en el Colegio Jesuita de la Providencia en Amiens. Desde ese tiempo, era un entusiasta de la vida marinera y la Caballería. En marzo de 1900, tiene éxito en su último examen y entra al instituto católico de Lille para preparar una licencia en lengua inglesa. En el mes de mayo, decide entrar en la Compañía de Jesús. Después de su Noviciado, enseña el inglés en la universidad de Florennes, lo que le permite pasar una estancia en Inglaterra. El mismo año, en 1907, Baden-Powell dirige a su primer campamento scout. En 1913, a consecuencia de dos artículos desfavorable al Movimiento Scout publicados en la revista Jesuita “Les Etudes", el Padre consigue el permiso para ir a Inglaterra durante las vacaciones de verano para ver de que se trataba todo eso. El 20 de septiembre, compartiendo una taza de té con Baden-Powell, se entusiasma a tal punto que toma la resolución de fundar en Francia la “Fédération Catholique du Scoutisme”.
 

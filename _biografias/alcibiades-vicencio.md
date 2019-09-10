@@ -11,6 +11,7 @@ ref_nombre: Técnica Scout
 ref_url: http://tecnicascout.wordpress.com/2009/03/29/alcibades-vicencio/
 resumen: fundador del escultismo en Chile, después de una corta conversación con el General Baden Powell, le arrancó la promesa de que daría una Conferencia sobre los Boy Scouts.
 orden: 6
+tags: [scouts, chile, fundadores]
 ---
 En la sociedad médica, figura el nombre del Doctor Vicencio como una de los más ilustres facultativos que han pasado por su directorio, tanto por sus condiciones de científico como por sus nobles ideas humanitarias.
 

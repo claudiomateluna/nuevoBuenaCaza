@@ -4,12 +4,13 @@ titulo: Sitio de Mafeking
 img: img/historias/mafeking.jpg
 categoria: [Historia, comienzos]
 pais: Sudáfrica
-localidad: Mafeking
+lugar: Mafeking
 ano: 1899
 ref_nombre: Manual del Explorador
 ref_url: http://manualscout.cl/ficha-019.htm
 resumen: El sitio de mafeking es considerado el punto de partida del movimiento Scout, el que permitio a Baden-Powell ver la gran capacidad de los jovenes.
 orden: 9
+tags: [eventos, creacion]
 ---
 Mafeking es el nombre que los colonos ingleses dieron a Mafikeng, una ciudad en el Cabo. Es conocido literalmente como 'lugar de piedras'.
 

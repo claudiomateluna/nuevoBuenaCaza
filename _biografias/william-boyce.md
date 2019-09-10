@@ -11,6 +11,7 @@ ref_nombre: Wikipedia
 ref_url: http://es.wikipedia.org/wiki/William_D._Boyce
 resumen: fundador de los Boy Scouts de América y los Lone Scouts de América Fue un empresario, editor de periódicos y revistas y aventurero estadounidense.
 orden: 10
+tags: [scouts, usa, fundadores]
 ---
 Fue un empresario, editor de periódicos y revistas y aventurero estadounidense. Es conocido sobre todo por haber sido el fundador de los Boy Scouts de América (BSA) y los Lone Scouts de América (LSA), de corta duración. Nacido en el condado de Allegheny (Pensilvania), demostró desde niño un gran aprecio por las actividades al aire libre. Después de trabajar como maestro de escuela y minero de carbón, Boyce asistió a la Academia de Wooster, Ohio antes de trasladarse al Medio Oeste y Canadá. Astuto y emprendedor hombre de negocios, Boyce estableció con éxito varios periódicos, tales como The Commercial en Winnipeg, Manitoba y el Lisbon Clipper en Lisbon (Dakota del Norte). Con su primera esposa, Mary Jane Beacom, se mudó a Chicago. Allí estableció la Mutual Newspaper Publishing Company y el semanal Saturday Blade, que atendía a un público rural y fue distribuida por miles de jóvenes repartidores. Mediante el empleo de niños y adolescentes para aumentar las ventas de periódicos, la editorial de Boyce mantuvo una tirada de 500.000 ejemplares por semana en 1894. Boyce apoyó firmemente los derechos de los trabajadores, como lo demuestra el apoyo de sus negocios a varios sindicatos y su interés por mejorar las condiciones de vida de sus empleados.
 

@@ -4,12 +4,13 @@ titulo: Scouts en Tiempos de Guerra
 img: img/historias/guerra.jpg
 categoria: [Historia, comienzos]
 pais: Mundo
-localidad: Mundo
+lugar: Mundo
 ano: 1914
 ref_nombre: Historia de los Scouts
 ref_url: http://www.historiadelosscouts.com/2008/10/los-scouts-en-la-primera-guerra-mundial
 resumen: los jóvenes Scouts, muchachos voluntarios que prestaron su servicio a la Corona Inglesa y a la República Francesa y que dieron la vida en aquel conflicto.
 orden: 11
+tags: [eventos]
 ---
 La Primera Guerra Mundial fue un conflicto armado a escala mundial desarrollado entre 1914 y 1918. Originado en Europa, se transformó en el primero en cubrir más de la mitad del planeta. En su momento fue el conflicto más sangriento de la historia, se calcula que produjo ocho millones de muertos y seis millones de inválidos.
 

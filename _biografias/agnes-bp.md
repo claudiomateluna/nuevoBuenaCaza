@@ -11,6 +11,7 @@ ref_nombre: El Cuaderno del viejo lobo
 ref_url: http://elcuadernodelviejolobo.blogspot.com/p/personajes-scouts.html
 resumen: fue una de las personas más influyentes en el desarrollo del Guidismo desde sus inicios. por encargo de su hermano, se involucró con la correcta organización de las Guías Scouts desde el principio
 orden: 4
+tags: [guias, baden-powell, fundadores]
 ---
 Agnes Smyth Baden Powell, nació el 16 de diciembre de 1858. Agnes Baden Powell fue una de las personas más influyentes en el desarrollo del Guidismo desde sus inicios.
 

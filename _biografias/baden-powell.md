@@ -9,6 +9,7 @@ nacimiento: 1857-02-22
 defuncion: 1941-01-08
 resumen: heroe de Mafeking, autor de Escultismo para muchachos y fundador del movimiento Scout.
 orden: 1
+tags: [scouts, baden-powell, fundadores]
 ---
 Roberto Stephenson Smyth Baden-Powell nació en el Nº 6 de la calle Stanhope (hoy día, 11 de la calle Stanhope Terrace), en el barrio londinense de Paddington, Inglaterra, el 22 de febrero de 1857.
 

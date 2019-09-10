@@ -4,12 +4,13 @@ titulo: Escultismo en Chile
 img: img/historias/chile.jpg
 categoria: [Historia, Chile]
 pais: Chile
-localidad: Santiago
+lugar: Santiago
 ano: 1909
 ref_nombre: Instituto La Salle
 ref_url: http://www.institutolasalle.cl/PDFs/scouts/HistoriadelMovimientoScoutChileno.pdf
 resumen: Baden Powell visita Chile, dicta una histórica charla en el Salón de Honor de la Universidad de Chile y pone la primera piedra fu el doctor Alcibíades Vicencio quien fundó el primer grupo scout
 orden: 5
+tags: [paises, latinoamerica, creacion]
 ---
 Justo un año después que se publicó "Scouting for boys", Baden Powell visita Chile, dicta una histórica charla en el Salón de Honor de la Universidad de Chile y pone la primera piedra de la que, dos meses más tarde, será la primera asociación nacional después de Inglaterra, iniciando con ello la internacionalización del Movimiento Scout.
 

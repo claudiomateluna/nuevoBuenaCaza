@@ -11,6 +11,7 @@ ref_nombre: Manual del explorador
 ref_url: http://manualscout.cl/ficha-062.htm
 resumen: Autor del libro de la selva que con las aventuras de mowgli ha inspirado a muchas generaciones de lobatos.
 orden: 13
+tags: [autores, influenciadores]
 ---
 Joseph Rudyard Kipling, nace en Bombay (India), el 30 de diciembre de 1865. Fallece en Londres, el 18 de enero de 1936), escritor indio de origen británico. Su segundo nombre hace referencia al lago Rudyard, en Stafordshire, Inglaterra, donde sus padres se conocieron. Su padre (John Lockwood Kipling), un oficial del ejército británico, experto en arte y artesanía indios, lo envió de niño a Inglaterra para que se educara allí.
 

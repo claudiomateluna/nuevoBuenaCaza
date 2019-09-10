@@ -11,6 +11,7 @@ ref_nombre: Manual del explorador
 ref_url: http://www.manualscout.cl/ficha-005.htm
 resumen: autora del Manual del Lobato Vera se unió al Escultismo en 1912, convirtiéndose en la primera Jefa Scout y más adelante, en 1914 se convirtió en la primera Akela.
 orden: 5
+tags: [lobatos, autores, fundadores]
 ---
 La autora del Manual del Lobato nació en 1893 en una familia de ocho hijos. Su padre era el pastor anglicano Charles W. Barclay y su madre la famosa escritora Florence Louisa Charlesworth (1862-1920).
 

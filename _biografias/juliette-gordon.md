@@ -11,6 +11,7 @@ ref_nombre: Manual del Explorador
 ref_url: http://www.manualscout.cl/ficha-212.htm
 resumen: El 12 de marzo de 1912, Juliette Low reunió a 18 niñas para formar la primera tropa de American Girl Guides.
 orden: 8
+tags: [guias, usa, fundadores]
 ---
 Nacida como Juliette Magill Kinzie Gordon en Savannah, Georgia, el 31 de octubre de 1860, fue un líder de la juventud estadounidense y el fundadora de las Girl Scouts de los EE.UU. en 1912.
 

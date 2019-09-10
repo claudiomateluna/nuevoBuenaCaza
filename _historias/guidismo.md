@@ -4,12 +4,13 @@ titulo: Historia del Guidismo
 img: img/historias/guidismo.png
 categoria: [Historia, guias]
 pais: Reino Unido
-localidad: Londres
+lugar: Londres
 ano: 1909
 ref_nombre: Manual del Explorador
 ref_url: http://manualscout.cl/ficha-004.htm
 resumen: en 1909 Baden Powell se encontró con una Patrulla de niñas vestidas de scouts. Al preguntarles su Guía de patrulla le respondió con aplomo que ellas eran las Chicas Scouts
 orden: 12
+tags: [unidades, creacion]
 ---
 En el primer desfile Scout, en el Palacio de Cristal en 1909, Baden Powell se encontró con una Patrulla de niñas vestidas de scouts. Al preguntarles, su Guía de patrulla le respondió con aplomo que ellas eran las Chicas Scouts en clara alusión al término que se usaba para los primeros Scouts, Chicos Scouts (Boy-Scouts).
 

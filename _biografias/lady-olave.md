@@ -11,6 +11,7 @@ ref_nombre: Wikipedia
 ref_url: https://es.wikipedia.org/wiki/Olave_Saint_Claire_Soames
 resumen: Jefa Guia mundial y una de las principales responsables del fortalecimiento del guidismo en el mundo.
 orden: 17
+tags: [guias, baden-powell]
 ---
 Olave Saint Claire Soames (Stubbing Court, Chesterfield, Inglaterra, 22 de febrero de 1889 - Bramley, Surrey, Inglaterra, 25 de junio de 1977), también conocida como Olave Baden Powell o Lady Olave, fue la jefa mundial de la Asociación Mundial de las Muchachas Guías y las Guías Scouts o WAGGGS (World Association of the Girl Guides and Girl Scouts).
 

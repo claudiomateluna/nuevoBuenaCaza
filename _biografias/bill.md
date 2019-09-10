@@ -9,6 +9,7 @@ nacimiento: 1900-08-06
 defuncion: 1992-11-09
 resumen: hombre más que los otros personificó mejor la vida del Muchacho Explorador Americano; Bill. fue un importante contribuyente a Boys 'Life, la revista para jovenes scouts.
 orden: 2
+tags: [scouts, usa, influenciadores]
 ---
 **Scoutmaster To The World**
 

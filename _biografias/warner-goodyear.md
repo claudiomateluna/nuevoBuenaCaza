@@ -11,6 +11,7 @@ ref_nombre: Avanzada Wagner Goodyear
 ref_url: http://avanzadawg.blogspot.cl/
 resumen: A sus doce años como Sargento Mayor del cuerpo de cadetes de Mafeking Warner Goodyear haría un excelente trabajo él y sus compañeros
 orden: 9
+tags: [scouts, influenciadores, mafeking]
 ---
 El capitán Charles Goodyear, fallecido el 21 de noviembre de 1910, era uno de los primeros residentes de Mafeking. En 1885 participo en la Comisión que era responsable de presentar el asentamiento para negros de Mafeking, y entre los edificios locales diseñados por él está el hospital de Victoria.
 

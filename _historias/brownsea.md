@@ -4,12 +4,13 @@ titulo: Campamento de Brownsea
 img: img/historias/brownsea.jpg
 categoria: [Historia, comienzos]
 pais: Reino Unido
-localidad: Brownsea Island
+lugar: Brownsea Island
 ano: 1907
 ref_nombre: Wikipedia
 ref_url: http://es.wikipedia.org/wiki/Campamento_de_Brownsea
 resumen: primer campamento scout del mundo, realizado del 1 al 9 de agosto de 1907, en la isla de Brownsea en la Bahía de Poole, Dorset.
 orden: 8
+tags: [eventos, creacion]
 ---
 El campamento de Brownsea es el nombre que recibe el primer campamento scout del mundo, realizado del 1 al 9 de agosto de 1907, en la isla de Brownsea en la Bahía de Poole, Dorset. El evento fue organizado por el fundador del escultismo Sir Robert Baden-Powell, con la finalidad de poner a prueba sus ideas que publicó en el libro Escultismo para muchachos. Baden-Powell escogió a 20 muchachos de edades entre 12 y 17 años, organizándolos en cuatro patrullas denominadas "lobos", "toros", "chorlitos" y "cuervos", entregándoles, como distintivo, una cinta azul, verde, amarilla y roja respectivamente. Durante el campamento, los jóvenes participaron en actividades de observación, trabajo en madera, patriotismo y rescate, entre otras. Históricamente se reconoce como el primer campamento de la Organización Mundial del Movimiento Scout y se considera el verdadero origen del movimiento mundial.
 

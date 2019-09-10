@@ -11,6 +11,7 @@ ref_nombre: Manual del explorador
 ref_url: http://manualscout.cl/ficha-054.htm
 resumen: escribió el libro El Sistema de Patrullas, que se convirtió en un complemento de Escultismo para muchachos...
 orden: 3
+tags: [scouts, destacados, autores]
 ---
 **Roland Erasmus Philipps** (27 de febrero de 1890 - 7 de julio de 1916) fue un político, militar y escritor británico, que colaboró con Robert Baden-Powell en los primeros años del Movimiento Scout, desde su función como Comisionado Scout de 1912 a 1914. En ese lapso escribió el libro El Sistema de Patrullas, que se convirtió en un complemento de Escultismo para muchachos, donde Robert Baden-Powell explicaba los fundamentos del Escultismo.
 

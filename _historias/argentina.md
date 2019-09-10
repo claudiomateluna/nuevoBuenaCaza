@@ -4,12 +4,13 @@ titulo: Escultismo en Argentina
 img: img/historias/argentina.png
 categoria: [Historia, Argentina]
 pais: Argentina
-localidad: Buenos Aires
+lugar: Buenos Aires
 ano: 1912
 ref_nombre: Scouts de Argentina
 ref_url: http://www.scouts.org.ar/nosotros/historia/en-argentina
 resumen: inmigrantes fueron quienes propiciaron la creación de Grupos Scouts en los colegios británicos e inmediatamente se fueron abriendo grupos en colegios.
 orden: 6
+tags: [paises, latinoamerica, creacion]
 ---
 A principios del siglo XX, en la línea Sur de los ferrocarriles del Gran Buenos Aires (hoy ex Ferrocarril Roca), trabajaban algunos ingenieros británicos que habían conocido el Movimiento Scout en Europa, o habían leído “Aids for Scouting” y los 15 fascículos de Baden-Powell de Scouting for boys” (Escultismo para Muchachos, publicado en 1908), que dieron origen al Movimiento Scout en el mundo. Estos inmigrantes, fueron quienes propiciaron la creación de Grupos Scouts en los colegios británicos, e inmediatamente se fueron abriendo grupos en colegios nacionales o en otros lugares como los cuarteles de bomberos y las comisarías.
 

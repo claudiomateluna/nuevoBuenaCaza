@@ -4,12 +4,13 @@ titulo: El Roverismo
 img: img/historias/roverismo.jpg
 categoria: [Historia, unidades]
 pais: Reino Unido
-localidad: Londres
+lugar: Londres
 ano: 1914
 ref_nombre: .
 ref_url: #
 resumen: La primera ocasión que tuvieron los Rovers, y el Movimiento Scout en conjunto, de presentarse ante el público, fue durante el Jamboree Internacional
 orden: 1
+tags: [unidades, creacion]
 ---
 En enero de 1914 se formó la Sociedad amiga de los Scouts, como Hermandad de Scouts Mayores. Las miras de esa sociedad, que quedó registrada ese año, se hallaban contenidas en el proyecto original en la forma siguiente:
 

@@ -4,12 +4,13 @@ titulo: Primer Jamboree Mundial
 img: img/historias/primer.png
 categoria: [Historia, jamboree, origenes]
 pais: Reino Unido
-localidad: Olympia, Londres
+lugar: Olympia, Londres
 ano: 1920
 ref_nombre: Manual del Explorador
 ref_url: http://www.manualscout.cl/ficha-058.htm
 resumen: a finales del mes de julio y primeros de agosto de 1920. se dio el primer Jamboree Mundial en el que se dieron reunión scouts de difentes naciones.
 orden: 3
+tags: [jamboree, eventos, creacion]
 ---
 <p><amp-img src="{{site.baseurl}}/img/historias/primer1.png" width="248" height="368" alt="Afiche del Primer Jamboree Scout del Mundo" layout="fixed" class="img_left rounded"></amp-img>El primero de estos magnos acontecimientos internacionales tuvo lugar en Inglaterra, a finales del mes de julio y primeros de agosto de 1920.</p>
 <p>Cómo surgió la idea de reunir a tantos y tantos muchachos de diferentes naciones, ideologías, color y credo, no fue cosa fácil, pero tampoco fue muy difícil.</p>

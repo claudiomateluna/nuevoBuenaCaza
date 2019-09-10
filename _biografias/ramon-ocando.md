@@ -11,6 +11,7 @@ ref_nombre: El Wiki de La Roca del Consejo
 ref_url: http://wiki.larocadelconsejo.net/index.php?title=Ram%C3%B3n_Ocando_P%C3%A9rez
 resumen: considerado como el fundador de los Scouts de Venezuela ya que fue el primero en crear patrullas scouts en el país.
 orden: 16
+tags: [scouts, venezuela, fundadores]
 ---
 Ramón Ocando Pérez está considerado como el fundador de los Scouts de Venezuela ya que fue el primero en crear patrullas scouts en el país.
 

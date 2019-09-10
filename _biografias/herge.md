@@ -11,6 +11,7 @@ ref_nombre: El Cuaderno del viejo lobo
 ref_url: http://elcuadernodelviejolobo.blogspot.com/p/personajes-scouts.html
 resumen: Georges Remi fue el creador de Las aventuras de Tintín, que a día de hoy siguen ejerciendo una importante influencia en el mundo de las historietas...
 orden: 7
+tags: [scouts, destacados]
 ---
 Georges Remi fue el creador de Las aventuras de Tintín, que a día de hoy siguen ejerciendo una importante influencia en el mundo de las historietas, particularmente en Europa. Además de esta serie, Hergé creó otras con diferentes personajes, entre las que cabe señalar Las aventuras de Jo, Zette y Jocko y Quique y Flupi.
 

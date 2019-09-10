@@ -4,12 +4,13 @@ titulo: Origen del Lobatismo
 img: img/historias/lobatismo.jpg
 categoria: [Historia, lobatos]
 pais: Reino Unido
-localidad: Londres
+lugar: Londres
 ano: 1914
 ref_nombre: Historia de los Scouts
 ref_url: http://www.historiadelosscouts.com/2007/04/el-origen-del-lobatismo
 resumen: En 1914 el mundo estaba siendo sacudido por la Gran Guerra Baden Powell aprovechó esta situación para desarrollar un proyecto para scouts menores de 11 años.
 orden: 7
+tags: [unidades, creacion]
 ---
 En el año 1914 el mundo estaba siendo sacudido por la Gran Guerra, el primer gran conflicto mundial. Centenares de scouters estaban en el frente de batalla y el escultismo estaba estancado, luego de un sensacional avance desde 1907.
 

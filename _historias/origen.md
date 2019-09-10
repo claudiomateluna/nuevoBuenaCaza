@@ -4,12 +4,13 @@ titulo: Origen de la Palabra Scout
 img: img/historias/origen.jpg
 categoria: [Historia, unidades]
 pais: Estados Unidos
-localidad: Oeste Norteamericano
+lugar: Oeste Norteamericano
 ano: 1899
 ref_nombre: .
 ref_url: #
 resumen: Muchos creen que la palabra Boy Scout se debe a Baden-Powell y su capacidad creativa sin embargo no es así. El término Boy Scout ya era usado antes del campamento de Brownsea.
 orden: 2
+tags: [creacion]
 ---
 Muchos creen que la palabra "Boy Scout" se debe a Baden-Powell y su capacidad creativa, sin embargo no es así. El término "Boy Scout" ya era usado antes del campamento de Brownsea.
 

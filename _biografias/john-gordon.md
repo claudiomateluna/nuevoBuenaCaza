@@ -11,6 +11,7 @@ ref_nombre: Manual del explorador
 ref_url: http://manualscout.cl/ficha-158.htm
 resumen: rompió con Robert Baden-Powell, Jefe del Movimiento Scout al que consideraba que era cada vez más cercano al militarismo, para formar su propio movimiento.
 orden: 15
+tags: [scouts, destacados, fundadores, autores]
 ---
 John Gordon Hargrave (1894-1982), apodado el “zorro blanco”, era una de las figuras principales en el movimiento del crédito social en la política británica.
 

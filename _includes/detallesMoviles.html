@@ -173,6 +173,21 @@
 			</dd>
 		</div>
 	{% endunless %}
+	{% unless page.ano == nil %}
+		<div class="cabItemM overflow-hidden">
+			<div class="left">
+				<div class="cabSvg">
+					<amp-img width="25" height="25" layout="responsive" src="{{site.baseurl}}/assets/svg/nacimiento.svg"></amp-img>
+				</div>
+			</div>
+			<dt class="left cabItemTitulo">
+				Año:
+			</dt>
+			<dd class="right right-align">
+				{{ page.ano | date: "%B, %Y" }}
+			</dd>
+		</div>
+	{% endunless %}
 	{% unless page.nacimiento == nil %}
 		<div class="cabItemM overflow-hidden">
 			<div class="left">

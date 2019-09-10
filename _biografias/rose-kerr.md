@@ -11,6 +11,7 @@ ref_nombre: Manual del explorador
 ref_url: http://manualscout.cl/ficha-211.htm
 resumen: Fue una de las fundadoras de la sección de Rangers de las Guías y estuvo involucrada en la formación de la Asociación Mundial de Guías Scouts
 orden: 11
+tags: [guias, rovers, fundadores]
 ---
 Fue una de las fundadoras de la sección de Rangers de las Guías y estuvo involucrada en la formación de la Asociación Mundial de Guías Scouts (AMGS) y autora de numerosas publicaciones sobre Guidismo. Fue galardonada con el Pez de Plata. En 1938 recibió la Orden al Merito del Imperio Británico (Order of the British Empire).
 

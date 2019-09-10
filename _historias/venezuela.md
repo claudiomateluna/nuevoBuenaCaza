@@ -4,12 +4,13 @@ titulo: Escultismo en Venezuela
 img: img/historias/venezuela.png
 categoria: [Historia, Venezuela]
 pais: Venezuela
-localidad: Maracaibo
+lugar: Maracaibo
 ano: 1913
 ref_nombre: El Wiki de La Roca del Consejo
 ref_url: http://wiki.larocadelconsejo.net/index.php?title=Historia_del_Escultismo_en_Venezuela
 resumen: el Sr. Ocando Pérez y el inglés Walter Raleigh Douglas organizaron el Movimiento en la ciudad de Maracaibo donde fundaron la Tropa San Sebastián que es la más antigua de Venezuela.
 orden: 10
+tags: [paises, latinoamerica, creacion]
 ---
 En 1913 Ramón Ocando Pérez organizó unas Patrullas en la ciudad de Maracaibo. Estas Patrullas tuvieron una vida muy breve, por los muchos inconvenientes que en torno a su normal desenvolvimiento ocurrieron.
 

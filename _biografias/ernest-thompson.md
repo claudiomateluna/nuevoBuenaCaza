@@ -11,6 +11,7 @@ ref_nombre: Manual del explorador
 ref_url: http://manualscout.cl/ficha-061.htm
 resumen: Ernest Thompson Seton dedicó toda su vida al estudio de la naturaleza, el estilo de vida de los indios norteamericanos y el arte de los bosques o Woodcraft
 orden: 14
+tags: [woodcraft, influenciadores]
 ---
 Ernest Thompson Seton dedicó toda su vida al estudio de la naturaleza, el estilo de vida de los indios norteamericanos y el arte de los bosques (Woodcraft).
 
