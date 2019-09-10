@@ -146,7 +146,7 @@ collections:
       - {name: 'orden', label: 'Orden', widget: 'number'}
       - {name: 'body', label: 'Body', widget: 'markdown'}
   - name: 'varios'
-    label: 'varios'
+    label: 'Varios'
     description: 'Edición e incorporación de varios en el sitio'
     identifier_field: titulo
     folder: '_varios'
