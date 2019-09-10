@@ -7,18 +7,13 @@ categoria:
   - girls guides
 pais: Reino Unido
 lugar: Londres
-nacimiento: 1858-12-16T00:00:00.000Z
-defuncion: 1945-06-02T00:00:00.000Z
+nacimiento: 1858-12-16
+defuncion: 1945-06-02
 ref_nombre: El Cuaderno del viejo lobo
 ref_url: 'http://elcuadernodelviejolobo.blogspot.com/p/personajes-scouts.html'
 resumen: 'fue una de las personas más influyentes en el desarrollo del Guidismo desde sus inicios. por encargo de su hermano, se involucró con la correcta organización de las Guías Scouts desde el principio'
 orden: 4
 tags: [guias, baden-powell, fundadores]
-=======
-tags:
-  - guias
-  - baden-powell
->>>>>>> 7eb9bca908a2be8240e8f7d10d5c1d703c96fc89
 ---
 Agnes Smyth Baden Powell, nació el 16 de diciembre de 1858. Agnes Baden Powell fue una de las personas más influyentes en el desarrollo del Guidismo desde sus inicios.
 
