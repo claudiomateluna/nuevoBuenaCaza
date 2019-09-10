@@ -4,16 +4,16 @@
     {
       "@type": "Article",
       "mainEntityOfPage": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}",
-      "headline": "{% if page.titulo %}{{ page.titulo | escape }}{% else %}{{ site.title | escape }}{% endif %}",
-      "name":"{% if page.titulo %}{{ page.titulo | escape }}{% else %}{{ site.title | escape }}{% endif %}",
+      "headline": "{% if page.titulo %}{{ page.titulo | escape }}{% else %}{{ site.data.buenacaza.titulo | escape }}{% endif %}",
+      "name":"{% if page.titulo %}{{ page.titulo | escape }}{% else %}{{ site.data.buenacaza.titulo | escape }}{% endif %}",
       "datePublished": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
       "dateModified": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
-      "description": "{% if page.resumen %}{{ page.resumen | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}",
+      "description": "{% if page.resumen %}{{ page.resumen | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.data.buenacaza.resumen }}{% endif %}",
       "articleSection": "{{ page.categoria.first }}",
       "wordCount": "{{ page.content | strip_html | strip_newlines | number_of_words }}",
       "author": {
         "@type": "EducationalOrganization",
-        "name": "{{ site.name }}",
+        "name": "{{ site.data.buenacaza.name }}",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Pasaje Las Aspas 11280",
@@ -69,10 +69,10 @@
     {
       "@type": "Game",
       "mainEntityOfPage": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}",
-      "name":"{% if page.titulo %}{{ page.titulo | escape }}{% else %}{{ site.title | escape }}{% endif %}",
+      "name":"{% if page.titulo %}{{ page.titulo | escape }}{% else %}{{ site.data.buenacaza.titulo | escape }}{% endif %}",
       "datePublished": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
       "dateModified": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
-      "description": "{% if page.resumen %}{{ page.resumen | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}",
+      "description": "{% if page.resumen %}{{ page.resumen | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.data.buenacaza.resumen }}{% endif %}",
       "typicalAgeRange": "{{ page.unidad }}",
       "gameItem": {
         "@type": "Thing",

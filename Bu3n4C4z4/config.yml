@@ -1,0 +1,46 @@
+backend:
+  name: github
+  repo: claudiomateluna/nuevoBuenaCaza
+
+media_folder: 'img/uploads'
+
+collections:
+  - name: 'configuracion-basica'
+    label: 'Configuración Básica'
+    files:
+      - label: 'Configuración Básica'
+        name: 'buenacaza'
+        file: '_data/buenacaza.yml'
+        fields:
+          - label: 'Titulo'
+            name: 'titulo'
+            widget: 'string'
+            hint: 'Titulo del Sitio Web'
+          - label: 'Nombre'
+            name: 'name'
+            widget: 'string'
+            hint: 'Nombre del sitio web'
+          - label: 'Correo Electrónico'
+            name: 'email'
+            widget: 'string'
+            hint: 'Correo Electrónico del sitio web'
+          - label: 'Resumen'
+            name: 'resumen'
+            widget: 'string'
+            hint: 'Descripción del sitio web (esto es utilizado para SEO del sitio)'
+          - label: 'Redes Sociales'
+            name: 'redes_sociales'
+            widget: 'object'
+            fields: 
+              - label: 'Twitter'
+                name: 'twitter'
+                widget: 'string'
+                hint: 'Escriba la URL de la red social'
+              - label: 'Facebook'
+                name: 'facebook'
+                widget: 'string'
+                hint: 'Escriba la URL de la red social'
+              - label: 'Instagram'
+                name: 'instagram'
+                widget: 'string'
+                hint: 'Escriba la URL de la red social'
