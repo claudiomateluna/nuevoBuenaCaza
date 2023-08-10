@@ -14,7 +14,7 @@ description: >
   para scouts en nuestro sitio encontraras todo lo que un scout necesita
 logo: "/assets/images/logo.png"
 brand: "/assets/images/brand.png"
-baseurl: "/nuevoBuenaCaza" # the subpath of your site, e.g. /blog
+baseurl: "https://claudiomateluna.github.io/nuevoBuenaCaza/" # the subpath of your site, e.g. /blog
 url: "https://claudiomateluna.github.io/nuevoBuenaCaza/" # the base hostname & protocol for your site
 permalink: /:title/
 exclude: ['README.md']
